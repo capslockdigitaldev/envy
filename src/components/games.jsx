@@ -4,6 +4,9 @@ import {gameImages} from './../store/helpers/common';
 import {getAllgames} from './../store/actions/gamesActions';
 import { NavLink} from 'react-router-dom';
 
+import axios from 'axios';
+const qs = require('query-string');
+
 class games extends Component {
     constructor(props) {
         super(props);
@@ -25,16 +28,59 @@ class games extends Component {
                 string.lastIndexOf("&")
             );
             const newstr = mySubString;
-            var code = newstr.substring(
+            var freshCode = newstr.substring(
                 newstr.lastIndexOf("=") + 1, 
             );
-            console.log(code)
-            if(code){
-                console.log('yyy');
+            console.log(freshCode)
+            if(freshCode){
+                console.log('yyy', freshCode);
+
+            const postData = {
+                client_id:"2551880e979642db877151662e7d6742",
+                client_secret: "ypSSMqrvq2aHRwtjxD1GWCUWYvPdm7ge",
+                grant_type:"authorization_code",
+                code:freshCode,
+                redirect_uri:'https://teamenvy.herokuapp.com/games'
+              };
+              const axiosConfig = {
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                }
+              };
+              const url =
+                "https://us.battle.net/oauth/token";
+              axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
+                  console.log("res", res);
+                // const tokenData = {
+                //   client_id: "react-test-client",
+                //   grant_type: "refresh_token",
+                //   refresh_token: res && res.data.refresh_token
+                // }
+          
+                // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
+                //   localStorage.setItem("access_token", res && res.data.access_token)
+                //   this.checkAuth();
+                //   // this.props.history.push('/XrayDetails');
+                // }).catch(error => {
+                //   alert("Something went wrong, Please try again")
+                // })
+          
+              })
+              .catch((err) => {
+                  console.log("err", err);
+                // alert("Something went wrong, Please try again")
+              })
+
             }else{
                 console.log('nnn');
             }
         }
+        // great
+
+        //aap use krlo ye
+        // lekin rediect ab is component pe karna pary ga
+         //a// pis ka route /games hai?hanji 
+    // let me update  
         
     }
     flipitright = (yy , gname) => {

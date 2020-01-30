@@ -83,65 +83,69 @@ class Login extends Component {
 
     loginWithBlizzard = () =>{
         console.log("loginWithBlizzard");
-        let request;
-        // https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code                    let request;
-                    const params = {
-                        response_type:'code',
-                        client_id:'2551880e979642db877151662e7d6742',
-                        redirect_uri: 'https://teamenvy.herokuapp.com/',
-                        access_type:"online"
+        // let request;
+        // // https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code                    let request;
+        //             const params = {
+        //                 response_type:'code',
+        //                 client_id:'2551880e979642db877151662e7d6742',
+        //                 redirect_uri: 'https://teamenvy.herokuapp.com/games',
+        //                 access_type:"online"
                         
-                    }
-            request = {
-                method: 'GET',
-                url: `https://us.battle.net/oauth/authorize`,
-                params: params
+        //             }
+        //     request = {
+        //         method: 'GET',
+        //         url: `https://us.battle.net/oauth/authorize`,
+        //         params: params
+        //       };
+        //     axios(request).then( (response) => {
+        //         console.log(response)
+        //     //   this.setState({
+        //     //     token: response.data,
+        //     //   });
+        //     })
+        //     .catch( (error) => {
+        //       console.log(error);
+        //     });
+           // sir mene ye kra hua code url se cod eget krne wala
+           // ok, abhi mera mob off hogaya charge pe laga dia hai. 
+           // okok
+           //ruko me code dikhati hu aapko
+
+            const postData = {
+                client_id:"2551880e979642db877151662e7d6742",
+                client_secret: "ypSSMqrvq2aHRwtjxD1GWCUWYvPdm7ge",
+                grant_type:"authorization_code",
+                code:"US5DJTD8H1GZT43VXZIOXTLIYYZ5PNYNPM",
+                redirect_uri:'https://teamenvy.herokuapp.com/games'
               };
-            axios(request).then( (response) => {
-                console.log(response)
-            //   this.setState({
-            //     token: response.data,
-            //   });
-            })
-            .catch( (error) => {
-              console.log(error);
-            });
-           
-            // const postData = {
-            //     client_id: "2551880e979642db877151662e7d6742",
-            //     client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
-            //     grant_type: "authorization_code",
-            //     code:"US7A3BV9IFZXNYAW5VETKP85EPIOKC9U0I",
-            //     redirect_uri	:"https://teamenvy.herokuapp.com/games"
-            //   };
-            //   const axiosConfig = {
-            //     headers: {
-            //       "Content-Type": "application/x-www-form-urlencoded"
-            //     }
-            //   };
-            //   const url =
-            //     "https://us.battle.net/oauth/token";
-            //   axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
-            //       console.log("res", res);
-            //     // const tokenData = {
-            //     //   client_id: "react-test-client",
-            //     //   grant_type: "refresh_token",
-            //     //   refresh_token: res && res.data.refresh_token
-            //     // }
+              const axiosConfig = {
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                }
+              };
+              const url =
+                "https://us.battle.net/oauth/token";
+              axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
+                  console.log("res", res);
+                // const tokenData = {
+                //   client_id: "react-test-client",
+                //   grant_type: "refresh_token",
+                //   refresh_token: res && res.data.refresh_token
+                // }
           
-            //     // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
-            //     //   localStorage.setItem("access_token", res && res.data.access_token)
-            //     //   this.checkAuth();
-            //     //   // this.props.history.push('/XrayDetails');
-            //     // }).catch(error => {
-            //     //   alert("Something went wrong, Please try again")
-            //     // })
+                // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
+                //   localStorage.setItem("access_token", res && res.data.access_token)
+                //   this.checkAuth();
+                //   // this.props.history.push('/XrayDetails');
+                // }).catch(error => {
+                //   alert("Something went wrong, Please try again")
+                // })
           
-            //   })
-            //   .catch((err) => {
-            //       console.log("err", err);
-            //     // alert("Something went wrong, Please try again")
-            //   })
+              })
+              .catch((err) => {
+                  console.log("err", err);
+                // alert("Something went wrong, Please try again")
+              })
             }
 
     render() {
@@ -162,9 +166,9 @@ class Login extends Component {
                 </h5>
             </div>
         <div className="modal-body">
-			{/* <button className="btn" onClick={()=> this.loginWithBlizzard()} >Login with blizzard</button> */}
-			<button className="btn" > <a target="_blank" href="https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code"> Login Heroku</a></button>
-			<button className="btn" > <a target="_blank" href="https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=http:%2F%2Flocalhost:3000%2F&response_type=code"> Login localhost</a></button>
+			<button className="btn" onClick={()=> this.loginWithBlizzard()} >Login with blizzard</button>
+			<button className="btn" > <a target="_blank" href="https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2Fgames&response_type=code"> Login Heroku</a></button>
+			{/* <button className="btn" > <a target="_blank" href="https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=http:%2F%2Flocalhost:3000%2F&response_type=code"> Login localhost</a></button> */}
             
             <FormGroup controlId="username">
                 <label>E-MAIL</label>
