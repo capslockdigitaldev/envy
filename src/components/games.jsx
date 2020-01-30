@@ -87,21 +87,23 @@ class games extends Component {
                                 body: JSON.stringify({ firstname, nickname, phone, email, password, message , bliz_id}),
                                 headers: new Headers({ 'Content-Type': 'application/json' }),
                             })
-                            if (password !== cpassword) {
-                                toastr.error('Passwords Dont Match', { displayDuration: 1500 });                
-                            } else {
                                 return fetch(request).then(res => res.json())
                                 .then((data) => {
-                                    console.log(data);
                                     if (data.ResponseCode === '1') {
-                                        console.log(data)
+                                        if (data.token) {
+                                            localStorage.setItem('token', data.token);
+                                            this.props.history.push('/games')
+                                            window.location.reload()
+                                        } else {
+                                            this.setState({ isSubmit: false , loggedIn: false});
+                                        }
                                     } else {
                                         toastr.error(data,  {displayDuration:1500})        
                                     }
                                 }).catch((err) => {
                                     console.log(err)
                                 })
-                            }
+                            
 
                         })
                 }
