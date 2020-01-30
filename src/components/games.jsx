@@ -74,7 +74,7 @@ class games extends Component {
                         }
                       };
                       const url = 
-                "https://us.battle.net/oauth/userinfo";
+                      "https://us.battle.net/oauth/userinfo?:region=us&access_token="+access_token;
               axios.get(url, qs.stringify(postData), axiosConfig).then(res => {
             console.log(res)
             console.log('jjjj')
