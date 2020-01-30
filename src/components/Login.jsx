@@ -83,7 +83,8 @@ class Login extends Component {
 
     loginWithBlizzard = () =>{
         console.log("loginWithBlizzard");
-        https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code                    let request;
+        let request;
+        // https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code                    let request;
                     const params = {
                         response_type:'code',
                         client_id:'2551880e979642db877151662e7d6742',
