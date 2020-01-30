@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import {gameImages} from './../store/helpers/common';
 import {getAllgames} from './../store/actions/gamesActions';
 import { NavLink} from 'react-router-dom';
-
+import toastr from 'reactjs-toastr';
+import 'reactjs-toastr/lib/toast.css';
 import axios from 'axios';
 const qs = require('query-string');
 
@@ -50,19 +51,6 @@ class games extends Component {
                 "https://us.battle.net/oauth/token";
               axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
                   console.log("res", res.data.access_token);
-                // const tokenData = {
-                //   client_id: "react-test-client",
-                //   grant_type: "refresh_token",
-                //   refresh_token: res && res.data.refresh_token
-                // }
-          
-                // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
-                //   localStorage.setItem("access_token", res && res.data.access_token)
-                //   this.checkAuth();
-                //   // this.props.history.push('/XrayDetails');
-                // }).catch(error => {
-                //   alert("Something went wrong, Please try again")
-                // })
                 if(res.data.access_token){
                     const postData = {
                         region:"us",
@@ -75,10 +63,66 @@ class games extends Component {
                       };
                       const url = 
                       "https://us.battle.net/oauth/userinfo?:region=us&access_token="+res.data.access_token;
-              axios.get(url, qs.stringify(postData), axiosConfig).then(res => {
-            console.log(res)
-            console.log('jjjj')
-            })
+                            axios.get(url, qs.stringify(postData), axiosConfig).then(res => {
+                            console.log(res)
+                            //signup and login api
+                            const tag = res.data.battletag
+                            // if(tag){
+                            //     const nickname = tag;
+                            //     const firstname = tag;
+                            // }else{
+                                const rand =     Math.floor(100000 + Math.random() * 900000);
+                                const nickname = 'user'+rand;
+                                const firstname = 'user'+rand;
+                            // }
+                            
+                            const phone = '0';
+                            const email = 'test';
+                            const password = '123456';
+                            const cpassword = '123456';
+                            const message = 'you have successfully regisered on team envy, Welcome to team envy family.'
+                            
+                            const request = new Request('https://xrsports.gg/team/public/signup', {
+                                method: 'POST',
+                                body: JSON.stringify({ firstname, nickname, phone, email, password, message}),
+                                headers: new Headers({ 'Content-Type': 'application/json' }),
+                            })
+                            if (password !== cpassword) {
+                                toastr.error('Passwords Dont Match', { displayDuration: 1500 });                
+                            } else {
+                                return fetch(request).then(res => res.json())
+                                .then((data) => {
+                                    if (data.ResponseCode === '1') {
+                                        toastr.success(data.ResponseText,  {displayDuration:1500})
+                                        // this.props.dispatch(sendMessage(phone,invitemessage));
+                                        const request = new Request('https://xrsports.gg/team/public/user/login', {
+                                    method: 'POST',
+                                    body: JSON.stringify({ email, password }),
+                                    headers: new Headers({ 'Content-Type': 'application/json' }),
+                                })
+                                return fetch(request).then(res => res.json())
+                                    .then((data) => {
+                                        if (data.token) {
+                                            localStorage.setItem('token', data.token);
+                                            this.setState({ isSubmit: true , loggedIn: true});
+                                            this.props.history.push('/games')
+                                            document.getElementById("close").click();
+                                            window.location.reload()
+                                        } else {
+                                            this.setState({ isSubmit: false , loggedIn: false});
+                                        }
+                                    }).catch((err) => {
+                                        console.log(err)
+                                    })
+                                    } else {
+                                        toastr.error(data,  {displayDuration:1500})        
+                                    }
+                                }).catch((err) => {
+                                    console.log(err)
+                                })
+                            }
+
+                        })
                 }
           
               })
