@@ -87,9 +87,9 @@ class Login extends Component {
                     let request;
                     const params = {
                         response_type:'code',
-                        client_id	: 'c9399694dda34650b09dce597a2cc2ba',
-                        client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
+                        client_id	: 'c4f1803b7aba40ba8ab09a84c330bd98',
                         redirect_uri	: 'https://teamenvy.herokuapp.com/games',
+                        access_type:"online"
                         
                     }
             request = {
@@ -109,7 +109,7 @@ class Login extends Component {
             });
            
             const postData = {
-                client_id: "c9399694dda34650b09dce597a2cc2ba",
+                client_id: "c4f1803b7aba40ba8ab09a84c330bd98",
                 client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
                 grant_type: "authorization_code",
                 code:"US7A3BV9IFZXNYAW5VETKP85EPIOKC9U0I",
