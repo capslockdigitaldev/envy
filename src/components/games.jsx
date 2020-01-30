@@ -63,24 +63,23 @@ class games extends Component {
                 // }).catch(error => {
                 //   alert("Something went wrong, Please try again")
                 // })
-                console.log(typeof(res.data.access_token))
-            //     if(res.data.access_token){
-            //         const postData = {
-            //             region:"us",
-            //             token: res.data.access_token,
-            //           };
-            //           const axiosConfig = {
-            //             headers: {
-            //               "Content-Type": "application/x-www-form-urlencoded"
-            //             }
-            //           };
-            //           const url =
-            //     "https://us.battle.net/oauth/check_token";
-            //   axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
-            // console.log(res)
-            // console.log('jjjj')
-            // })
-            //     }
+                if(res.data.access_token){
+                    const postData = {
+                        // region:"us",
+                        token: res.data.access_token,
+                      };
+                      const axiosConfig = {
+                        headers: {
+                          "Content-Type": "application/x-www-form-urlencoded"
+                        }
+                      };
+                      const url =
+                "https://us.battle.net/oauth/check_token";
+              axios.get(url, qs.stringify(postData), axiosConfig).then(res => {
+            console.log(res)
+            console.log('jjjj')
+            })
+                }
           
               })
               .catch((err) => {
