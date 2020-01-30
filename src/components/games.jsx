@@ -76,8 +76,8 @@ class games extends Component {
                                 const firstname = 'user'+rand;
                             // }
                             const bliz_id = res.data.id;
-                            const phone = '965326485';
-                            const email = 'test@gg.gg';
+                            const phone = '111111';
+                            const email = 'testemail@gmail.com';
                             const password = '123456';
                             const cpassword = '123456';
                             const message = 'you have successfully regisered on team envy, Welcome to team envy family.'
