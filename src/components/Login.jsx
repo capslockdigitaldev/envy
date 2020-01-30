@@ -115,7 +115,7 @@ class Login extends Component {
                 client_id:"2551880e979642db877151662e7d6742",
                 client_secret: "ypSSMqrvq2aHRwtjxD1GWCUWYvPdm7ge",
                 grant_type:"authorization_code",
-                code:"US5DJTD8H1GZT43VXZIOXTLIYYZ5PNYNPM",
+                code:"USNRPYU7EBLNIT3Z5BIZSPV3ZKCCSBXVCG",
                 redirect_uri:'https://teamenvy.herokuapp.com/games'
               };
               const axiosConfig = {
@@ -126,7 +126,7 @@ class Login extends Component {
               const url =
                 "https://us.battle.net/oauth/token";
               axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
-                  console.log("res", res);
+                  console.log(res.data.access_token );
                 // const tokenData = {
                 //   client_id: "react-test-client",
                 //   grant_type: "refresh_token",

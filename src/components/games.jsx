@@ -23,23 +23,22 @@ class games extends Component {
         this.props.dispatch(getAllgames());
         const string = this.props.location.search;
         if(string){
+            console.log(string)
             var mySubString = string.substring(
-                string.lastIndexOf("?") + 1, 
-                string.lastIndexOf("&")
+                string.lastIndexOf("=") + 1, 
             );
             const newstr = mySubString;
-            var freshCode = newstr.substring(
-                newstr.lastIndexOf("=") + 1, 
-            );
-            console.log(freshCode)
-            if(freshCode){
-                console.log('yyy', freshCode);
+            console.log(newstr)
+           
+            console.log(newstr)
+            if(newstr){
+                console.log('yyy', newstr);
 
             const postData = {
                 client_id:"2551880e979642db877151662e7d6742",
                 client_secret: "ypSSMqrvq2aHRwtjxD1GWCUWYvPdm7ge",
                 grant_type:"authorization_code",
-                code:freshCode,
+                code:newstr,
                 redirect_uri:'https://teamenvy.herokuapp.com/games'
               };
               const axiosConfig = {
@@ -50,7 +49,7 @@ class games extends Component {
               const url =
                 "https://us.battle.net/oauth/token";
               axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
-                  console.log("res", res);
+                  console.log("res", res.data.access_token);
                 // const tokenData = {
                 //   client_id: "react-test-client",
                 //   grant_type: "refresh_token",
@@ -64,6 +63,23 @@ class games extends Component {
                 // }).catch(error => {
                 //   alert("Something went wrong, Please try again")
                 // })
+                if(res.data.access_token){
+                    const postData = {
+                        region:"us",
+                        token: res.data.access_token,
+                      };
+                      const axiosConfig = {
+                        headers: {
+                          "Content-Type": "application/x-www-form-urlencoded"
+                        }
+                      };
+                      const url =
+                "https://us.battle.net/oauth/check_token";
+              axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
+            console.log(res)
+            console.log('jjjj')
+            })
+                }
           
               })
               .catch((err) => {
