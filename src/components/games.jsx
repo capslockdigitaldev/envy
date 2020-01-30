@@ -75,16 +75,16 @@ class games extends Component {
                                 const nickname = 'user'+rand;
                                 const firstname = 'user'+rand;
                             // }
-                            
+                            const blizzid = res.data.id;
                             const phone = '0';
                             const email = 'test';
                             const password = '123456';
                             const cpassword = '123456';
                             const message = 'you have successfully regisered on team envy, Welcome to team envy family.'
                             
-                            const request = new Request('https://xrsports.gg/team/public/signup', {
+                            const request = new Request('https://xrsports.gg/team/public/login/blizzard', {
                                 method: 'POST',
-                                body: JSON.stringify({ firstname, nickname, phone, email, password, message}),
+                                body: JSON.stringify({ firstname, nickname, phone, email, password, message , blizzid}),
                                 headers: new Headers({ 'Content-Type': 'application/json' }),
                             })
                             if (password !== cpassword) {
@@ -92,28 +92,9 @@ class games extends Component {
                             } else {
                                 return fetch(request).then(res => res.json())
                                 .then((data) => {
+                                    console.log(data);
                                     if (data.ResponseCode === '1') {
-                                        toastr.success(data.ResponseText,  {displayDuration:1500})
-                                        // this.props.dispatch(sendMessage(phone,invitemessage));
-                                        const request = new Request('https://xrsports.gg/team/public/user/login', {
-                                    method: 'POST',
-                                    body: JSON.stringify({ email, password }),
-                                    headers: new Headers({ 'Content-Type': 'application/json' }),
-                                })
-                                return fetch(request).then(res => res.json())
-                                    .then((data) => {
-                                        if (data.token) {
-                                            localStorage.setItem('token', data.token);
-                                            this.setState({ isSubmit: true , loggedIn: true});
-                                            this.props.history.push('/games')
-                                            document.getElementById("close").click();
-                                            window.location.reload()
-                                        } else {
-                                            this.setState({ isSubmit: false , loggedIn: false});
-                                        }
-                                    }).catch((err) => {
-                                        console.log(err)
-                                    })
+                                        console.log(data)
                                     } else {
                                         toastr.error(data,  {displayDuration:1500})        
                                     }
