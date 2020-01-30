@@ -83,12 +83,11 @@ class Login extends Component {
 
     loginWithBlizzard = () =>{
         console.log("loginWithBlizzard");
-        // code=US5XNUYW1X7HKDS1AY84WFFQ8WRY65HFYE
-                    let request;
+        https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code                    let request;
                     const params = {
                         response_type:'code',
-                        client_id	: 'c4f1803b7aba40ba8ab09a84c330bd98',
-                        redirect_uri	: 'https://teamenvy.herokuapp.com/games',
+                        client_id:'2551880e979642db877151662e7d6742',
+                        redirect_uri: 'https://teamenvy.herokuapp.com/',
                         access_type:"online"
                         
                     }
@@ -108,41 +107,41 @@ class Login extends Component {
               console.log(error);
             });
            
-            const postData = {
-                client_id: "c4f1803b7aba40ba8ab09a84c330bd98",
-                client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
-                grant_type: "authorization_code",
-                code:"US7A3BV9IFZXNYAW5VETKP85EPIOKC9U0I",
-                redirect_uri	:"https://teamenvy.herokuapp.com/games"
-              };
-              const axiosConfig = {
-                headers: {
-                  "Content-Type": "application/x-www-form-urlencoded"
-                }
-              };
-              const url =
-                "https://us.battle.net/oauth/token";
-              axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
-                  console.log("res", res);
-                // const tokenData = {
-                //   client_id: "react-test-client",
-                //   grant_type: "refresh_token",
-                //   refresh_token: res && res.data.refresh_token
-                // }
+            // const postData = {
+            //     client_id: "2551880e979642db877151662e7d6742",
+            //     client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
+            //     grant_type: "authorization_code",
+            //     code:"US7A3BV9IFZXNYAW5VETKP85EPIOKC9U0I",
+            //     redirect_uri	:"https://teamenvy.herokuapp.com/games"
+            //   };
+            //   const axiosConfig = {
+            //     headers: {
+            //       "Content-Type": "application/x-www-form-urlencoded"
+            //     }
+            //   };
+            //   const url =
+            //     "https://us.battle.net/oauth/token";
+            //   axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
+            //       console.log("res", res);
+            //     // const tokenData = {
+            //     //   client_id: "react-test-client",
+            //     //   grant_type: "refresh_token",
+            //     //   refresh_token: res && res.data.refresh_token
+            //     // }
           
-                // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
-                //   localStorage.setItem("access_token", res && res.data.access_token)
-                //   this.checkAuth();
-                //   // this.props.history.push('/XrayDetails');
-                // }).catch(error => {
-                //   alert("Something went wrong, Please try again")
-                // })
+            //     // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
+            //     //   localStorage.setItem("access_token", res && res.data.access_token)
+            //     //   this.checkAuth();
+            //     //   // this.props.history.push('/XrayDetails');
+            //     // }).catch(error => {
+            //     //   alert("Something went wrong, Please try again")
+            //     // })
           
-              })
-              .catch((err) => {
-                  console.log("err", err);
-                // alert("Something went wrong, Please try again")
-              })
+            //   })
+            //   .catch((err) => {
+            //       console.log("err", err);
+            //     // alert("Something went wrong, Please try again")
+            //   })
             }
 
     render() {
