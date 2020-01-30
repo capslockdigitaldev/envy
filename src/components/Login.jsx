@@ -95,7 +95,7 @@ class Login extends Component {
             request = {
                 method: 'GET',
                 url: `https://us.battle.net/oauth/authorize`,
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded'},
+                headers: { 'Content-Type': 'application/json'},
                 params: params
               };
             axios(request).then( (response) => {
@@ -108,41 +108,41 @@ class Login extends Component {
               console.log(error);
             });
            
-            // const postData = {
-            //     client_id: "c9399694dda34650b09dce597a2cc2ba",
-            //     client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
-            //     grant_type: "authorization_code",
-            //     code:"US5XNUYW1X7HKDS1AY84WFFQ8WRY65HFYE",
-            //     redirect_uri	:"https://teamenvy.herokuapp.com/games"
-            //   };
-            //   const axiosConfig = {
-            //     headers: {
-            //       "Content-Type": "application/x-www-form-urlencoded"
-            //     }
-            //   };
-            //   const url =
-            //     "https://us.battle.net/oauth/token";
-            //   axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
-            //       console.log("res", res);
-            //     // const tokenData = {
-            //     //   client_id: "react-test-client",
-            //     //   grant_type: "refresh_token",
-            //     //   refresh_token: res && res.data.refresh_token
-            //     // }
+            const postData = {
+                client_id: "c9399694dda34650b09dce597a2cc2ba",
+                client_secret: "Gu8QNWxssxcGxhp6RvmqCaJnp0eZ0RD9",
+                grant_type: "authorization_code",
+                code:"US7A3BV9IFZXNYAW5VETKP85EPIOKC9U0I",
+                redirect_uri	:"https://teamenvy.herokuapp.com/games"
+              };
+              const axiosConfig = {
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                }
+              };
+              const url =
+                "https://us.battle.net/oauth/token";
+              axios.post(url, qs.stringify(postData), axiosConfig).then(res => {
+                  console.log("res", res);
+                // const tokenData = {
+                //   client_id: "react-test-client",
+                //   grant_type: "refresh_token",
+                //   refresh_token: res && res.data.refresh_token
+                // }
           
-            //     // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
-            //     //   localStorage.setItem("access_token", res && res.data.access_token)
-            //     //   this.checkAuth();
-            //     //   // this.props.history.push('/XrayDetails');
-            //     // }).catch(error => {
-            //     //   alert("Something went wrong, Please try again")
-            //     // })
+                // axios.post(url, qs.stringify(tokenData), axiosConfig).then(response =>{
+                //   localStorage.setItem("access_token", res && res.data.access_token)
+                //   this.checkAuth();
+                //   // this.props.history.push('/XrayDetails');
+                // }).catch(error => {
+                //   alert("Something went wrong, Please try again")
+                // })
           
-            //   })
-            //   .catch((err) => {
-            //       console.log("err", err);
-            //     // alert("Something went wrong, Please try again")
-            //   })
+              })
+              .catch((err) => {
+                  console.log("err", err);
+                // alert("Something went wrong, Please try again")
+              })
             }
 
     render() {
