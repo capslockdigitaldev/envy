@@ -162,7 +162,10 @@ class Login extends Component {
                 </h5>
             </div>
         <div className="modal-body">
-			<button className="btn" onClick={()=> this.loginWithBlizzard()} >Login with blizzard</button>
+			{/* <button className="btn" onClick={()=> this.loginWithBlizzard()} >Login with blizzard</button> */}
+			<button className="btn" > <a target="_blank" href="https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=https:%2F%2Fteamenvy.herokuapp.com%2F&response_type=code"> Login Heroku</a></button>
+			<button className="btn" > <a target="_blank" href="https://us.battle.net/oauth/authorize?access_type=online&client_id=2551880e979642db877151662e7d6742&redirect_uri=http:%2F%2Flocalhost:3000%2F&response_type=code"> Login localhost</a></button>
+            
             <FormGroup controlId="username">
                 <label>E-MAIL</label>
                 <FormControl type="text" name="email" placeholder="Enter Your Email" value={this.state.email} onChange={e => this.validateLoginForm(e)} />
