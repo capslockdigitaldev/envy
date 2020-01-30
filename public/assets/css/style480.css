@@ -1,0 +1,1105 @@
+
+@media only screen and (max-width: 480px) {
+
+    .main-content.profile-section .main-content .nav-tabs {
+
+        display: grid;
+    }
+    .main-content.profile-section .main-content.frontline .nav-tabs .nav-item {
+        margin: 1% 2%;
+        width: 98%;
+    }
+    .xp-earned span.pull-right {
+        display: block;
+    }
+    .float-right a.btn.btn-primary {
+        font-size: 8px;
+    }
+    .text-left.time-zone ul li span {
+        font-size: 7px;
+    }
+    .row.tour-prizes ul li { 
+        width: 31%!important;
+        
+    }
+    .empire-leaderboard {
+        padding: 40px 24px;
+    }
+    .col-lg-4 .gold {
+        margin-top: 44px;
+    }
+    .empire-leaderboard .col-lg-4 {
+        padding: 0 0px;
+    }
+    .empire-leaderboard .col-lg-4 {
+        margin-bottom: 49px!important;
+    }
+    .logo-image.text-center img {
+        width: 75px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .reward-prizes .col-lg-4 {
+        margin: 0 0px 0px 0px;
+    }
+    div#tabs-937228 .nav.nav-tabs , div#tabs-454262215 .nav.nav-tabs {
+        display: block;
+    }
+    .sixtypercent a {
+        float: left;
+        width: 33.33%;
+        margin: 0%;
+    }
+    div#tabs-454262215 .nav-tabs a.nav-link {
+        background: none;
+        color: #16794e;
+        border: 1px solid #17794c;
+        font-weight: bolder;
+        font-size: 8px;
+        padding: 5px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    div#tabs-454262215 li {
+        width: 20%;
+        float: left;
+        margin: 0!important;
+        padding: 0.5px;
+    }
+    .tab-content h3 {
+        font-size: 12px;
+        color: #505050;
+    }
+    .list_tournament.list_game .tournamentfee a {
+        margin: 5% 5%;
+    }
+    .footer_socials {
+        margin: 0%;
+        width:100%;
+    }
+    .list_tournament.list_game .tournamentfee span {
+        font-size: 9px;
+        color: #3d3d3d;
+    }
+    footer {
+        margin-top: 5%;
+    }
+    .chatbox {
+        margin: 4% 0% 16% 2%!important;
+    }
+    a.checkoutbtnn {
+        width: 33%;
+    }
+    .tcs {
+        margin: 0% 2%;
+    }
+    .m-4 {
+        margin: 0% 0% 5% 0% !important;
+    }
+    table#carttable {
+         margin: 0%; 
+    }
+    .cartcal p {
+        font-size: 14px;
+    }
+    #placeorderfinal {
+        width: 35%;
+    }
+    .cartcal h5 {
+        font-size: 14px;
+    }
+    p.transid {
+        width: 30%;
+    }
+    .row.ordersumm .col-lg-3 {
+        text-align: center;
+    }
+    .table.ranking tr td {
+        color: #393939;
+        font-size: 9px!important;
+        padding: 0px 0px 5px 0px;
+        text-align:center;
+    }
+    #carttable tr th {
+        background: #ee9922;
+        width: 40%;
+        font-size: 10px!important;
+        color: white;
+         text-align:center;
+    }
+    img.rounded-circle.cartproductimage {
+        width: 100px;
+    }
+    p.partdate {
+        width: 95%;
+         margin: 0%;
+        font-size: 11px;
+    }
+    p.orstatus {
+        width: 95%;
+         margin: 0%;
+        font-size: 11px;
+    }
+    p.ordertotall {
+        width: 95%;
+         margin: 0%;
+        font-size: 11px;
+    }
+    
+    .zoombutton span {
+        padding: 5px 5px;
+        font-size: 10px;
+        font-weight: 900;
+        margin: 2px;
+        border-radius: 0px;
+    }
+    .matchresult input {
+        width: 50%;
+        border-radius: 0px!important;
+    }
+    .join input[type="submit"] {
+        font-size: 11px;
+        margin: 0px 0px 0px;
+        width: 50%;
+        border-radius: 0px!important;
+    }
+    .playingparties.rob.matchboxfour {
+        width: 100%;
+    }
+    img.platlogo {
+        width: 14px;
+    }
+    .viewbrack {
+        padding: 2px 5px;
+        font-size: 13px;
+    }
+    ul.sociall-linkss li a {
+        width: 5px;
+        height: 5px;
+        padding: 15px;
+         border: none; 
+        margin: 5px 0px 17px 0px;
+    }
+    ul.sociall-linkss li a {
+        border: none!important;
+    }
+    p#opensideright {
+        position: fixed; 
+    }
+    .blocks h4 {
+        font-size: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+    .blocks h5 {
+        font-size: 13px;
+        padding: 0px 0px 5px 0px;
+    }
+    .reportissuetourr {
+        padding: 1px;
+        font-size: 12px;
+        margin: 0px 0px 0px;
+        border-radius: 0px;
+    }
+    .tab-dec {
+        min-height: 170px;
+    }
+    .social-links li {
+        font-size: 10px;
+    }
+    .new_search {
+        width: 100%;
+    }
+    .list_tournament.list_game .tournamentfee {
+        padding: 3px 7px 0px 0px!important;
+        font-size: 8px;
+    }
+    .list_tournament.list_game .tournamentfee a {
+        width: 65px;
+        padding: 0px;
+    }
+    .events_block h2 {
+        font-size: 15px;
+    }
+    .nav_events input[type="submit"] {
+        font-size: 15px;
+    }
+    img.laddermatchlogo {
+        width: 15px;
+    }
+    .tcthings {
+        width: 43%;
+        float: left;
+        border: 1px solid #000000;
+        padding: 5px;
+        margin: 10px;
+    }
+    .tcthingsone h3 {
+        font-size: 15px;
+    }
+    .tcthingstwo h1 {
+        font-size: 25px;
+    }
+    table.table.cashflow.mt-0 tr td {
+        font-size: 14px!important;
+    }
+    .tcthingsthree a {
+        width: 100%;
+        padding: 5px 20px;
+        font-size: 10px;
+        margin: 0%;
+    }
+    .new_list_tournament.list_game.rob td.floatname {
+        text-align: left!important;
+        padding-left: 2px;
+    }
+    .right_hand {
+        float: left;
+        width: 60%;
+    }
+    h2.commonheading {
+        font-size: 12px;
+        padding: 0px 0px 8px 0px;
+    }
+    .toes {
+        box-shadow: none;
+    }
+    .leftban {
+        display: none;
+    }
+    
+    tr.new_list_tournament.list_game.robbbb th {
+        font-size: 9px!important;
+    }
+    .rightban {
+        width: 100%;
+        float: right;
+        padding:0px;
+    }
+    .searchProduct input, .searchProduct a {
+        padding: 4% 1%;
+        font-size: 9px;
+    }
+    .rightban img {
+        width: 100%;
+        padding: 0% 0% 0% -1%;
+    }
+    .fortypercent {
+        width: 100%;
+        padding: 15px;
+    }
+    .fortypercent h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .fortypercent p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .sixtypercent img {
+        width: 100%;
+        padding: 1px 15px 20px 15px;
+    }
+    .fullwid img {
+        width: 100%;
+    }
+    .fullwid {
+        width: 100%;
+        padding: 10px 22px 10px 0px;
+        float: left;
+    }
+    a.learnmoredash {
+        padding: 5px 10px;
+        font-size: 7px;
+        margin: -15% 0% 0% 7%;
+    }
+    .footer_logo {
+        max-width: 225px;
+    }
+    .main-content .nav-tabs .nav-item {
+        width: 33.33%;
+        float: left;
+    }
+    .scroller::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(to top,#ee9922, #09472e);
+    }
+    .supportucp {
+        margin: 0% 0% 5% 0%;
+    }
+    .abt-logo img {
+        width: 35%;
+    }
+    
+    
+    p#exc {
+        position: absolute;
+        background: red;
+        font-size: 10px!important;
+        text-align: center;
+        margin: 50px 0px 0px 0px;
+        padding: 1px!important;
+        line-height: 14px;
+        color: white;
+    }  
+    span.participantss {
+        margin: 3px 0px 0px 2%;
+    }
+      
+    #livechatscreen {
+        height: 300px;
+    }
+    .login .login-username, .login .login-password {
+        width: 100%;
+    }
+    div#modal-container-509828 {
+        padding-top: 65px!important;
+    }    
+    img.homegamesbanner {
+        width: 128%;
+        max-width: 128%;
+        margin-left: -14%;
+    }
+    .fullwidth {
+        overflow: hidden;
+    }
+    .onethird {
+        display: none;
+    }
+    .halfway {
+        width: 100%;
+    }
+    .enterbutton img {
+        max-width: 90px;
+    }
+    a.taketour {
+        background: white;
+        color: #16794f;
+        padding: 5px 8px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 1000;
+    }
+    .half p {
+        color: black;
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+        font-size: 12px;
+        text-align: justify;
+        line-height: 12px;
+    }
+    .fullwidth.homebanner>img {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+     h2#homemainh {
+        width: 90%;
+        margin: 2% 5%;
+        padding: 30px 0px 13px 0px;
+        font-size: 13px;
+    }   
+    .full.userpro {
+        padding: 5px;
+        margin: 1% 0%;
+    }
+    nav.navbar.navbar-toggleable.p-0.rob a.navbar-brand {
+        right: 0;
+        padding: 0px 0px;
+    }
+    nav.navbar.navbar-toggleable.p-0.robb a.navbar-brand {
+        right: 0;
+        padding: 5px 0px;
+    }
+    #modal-container-509828 .modal-dialog {
+        max-width: 700px;
+        margin: 5px auto;
+    }    
+    div#modal-container-509828 img {
+        display: none;
+    }
+    div#modal-container-509828 {
+        padding: 0px;
+    }
+    div#modal-container-509828 .modal-content {
+        padding: 10px;
+        width: 97%;
+        margin: 0% 1.5%;
+    }
+    .signup  .modal-header.text-center {
+        padding: 0;
+    }
+    .notgroup.full.text-left p {
+        float: left;
+        width: 100%;
+        text-align: center;
+        line-height: 15px;
+        padding: 6px 0px;
+        font-size: 10px;
+    }
+    .notgroup input.form-check-input {
+        float: left;
+        margin: 0px -20px;
+    }
+    .notgroup.full.text-left a {
+        font-size: 10px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    
+    form#adduser button.btn.btn-primary.newsubmit {
+        width: 130%;
+        padding: 10px;
+        margin-bottom: -10px;
+        margin-top: 4px;
+        margin-left: -15%;
+    }
+    form#adduser input {
+        max-height: 36px;
+    }
+    .notgroup input.form-check-input {
+        float: left;
+        margin: 2px 0px;
+        left: 0;
+        text-align: left!important;
+        width: 60%!important;
+    }
+    .signup a {
+        width: 100%;
+        color: #57a1ff!important;
+    }
+    .notgroup.form-group.full.text-left label {
+        text-align: center!important;
+    }
+    .neupp .form-group {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .modal-body {
+        padding: 5px 0px;
+    }
+    form#adduser label {
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding: 3px 10px 0px;
+    }
+    form#adduser a {
+        background: none;
+    }
+    
+    li.d-flex.lsbuttons a {
+        background: linear-gradient(to right,#2d0b10 ,#ad1d18 );
+        width: 100%;
+        float: left;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 6px 6px;
+        margin: 6px;
+        border: none;
+        border-radius: unset;
+    }
+    li.d-flex.lsbuttons {
+        border: 0;
+        background: none;
+    }    
+        
+    .col-md-merch {
+        float: left;
+        width: 50%;
+    }    
+        
+    a.navbar-brand {
+        position: absolute;
+        padding: 10px 0px;
+    }  
+    span.sidetogglenav, .onlyphone {
+        display: block;
+        margin: 0px;
+    }
+    span.pull-right {
+        display: none;
+    }
+    .onlydesk{
+        display:none;
+    }
+    .sponsor>img {
+        padding: 0px;
+    } 
+    .left-sec.rob.mt-2 span.pull-left.pr-4 {
+        width: 100%;
+    }
+    .left-sec.robb.mt-2 span.pull-left.pr-4 {
+        width: 100%;
+    }
+    p#dass, p#das{
+        display: block!important;    
+    }
+    .creditsonphone span.pull-right {
+        text-align: center;
+        padding: 10px 10px 0px 0px;
+        font-weight: 600;
+        color: #24ddb2;
+        font-size:18px;
+    }
+    
+    .main-content.support.frontline h4 {
+        text-align: left;
+        font-size: 18px;
+        color: #565656;
+    } 
+    .nav-item {
+        float: right;
+        text-align: right;
+        width: 100%;
+    }
+    .main-content {
+        padding: 1px 10px;
+        background: #fff;
+    }
+    .main-content.support.frontline {
+        padding: 8px 10px 7px 10px;
+        text-align: left!important;
+    }
+    .sponsor {
+        background-image: none;
+        background-color: #686868;
+    }
+    .spon {
+        padding: 4px;
+    }
+    .col-md-6.col-sm-6.col-12.p-0.text-center {
+        margin-top: 0px;
+    }
+    
+    .credits {
+        display: none;
+    }
+    .gamecardmain {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+    }  
+    .main-content .col-md-2 {
+        flex: 0 0 17.667%;
+        max-width: 50%;
+        margin: 0px 0px 35px 0px!important;
+    }
+    .das , .dass {
+        display:block;
+    } 
+    .dash , .dashh{
+        display:none;
+    }
+    
+    
+    .custom_foot_image.text-center, .custom_foot {
+        width: 50%;
+        padding: 5px;
+    }
+    .home_banner h2 {
+        font-size: 22px;
+    }
+    .home_banner p {
+        font-size: 16px;
+    }
+    .home_banner a {
+        width: 60%;
+        margin: 6% 20%;
+    }
+    .home_banner {
+        background-size: cover;
+    }
+    .forty {
+        width: 100%;
+        margin: 0!important;
+        padding: 18px 5%!important;
+        background: url('https://res.cloudinary.com/dg3sjwu2p/image/upload/v1580109442/envy/assets/footr-bg_vmyl5n.png')!important;
+        background-size: 155% 100%!important;
+    }
+    
+    .sixty {
+        width: 100%;
+    }
+    .fifty {
+        float: left;
+        width: 100%;
+        padding: 10px 5%!important;
+    }
+    img.lin1, img.lin4 {
+        display: none;
+    }
+    img.mid {
+        display: none;
+    }
+    .double {
+        margin: 0px 0px!important;
+        background-size: cover!important;
+        background: #d2d2d2!important;
+        background-image: none!important;
+    }
+    .sixty {
+        background-image: none!important;
+        background: #d2d2d2!important;
+    }
+    .homeheader ul.navbar-nav.ml-md-auto {
+        padding: 15px 0px;
+        float: right;
+    }
+    .banner_tour img {
+        width: 100%;
+    }
+    header.homeheader {
+        padding: 5px 10px;
+    }
+    
+    
+    a.navbar-brand img {
+        width: 100px;
+    }
+    .tournament_image, .main {
+        float: left;
+        width: 50%;
+        margin: 0!important;
+        padding: 0!important;
+        height: 65px;
+        overflow: hidden;
+    }
+    .tournamentfee, .tournament_platform, .tournament_reg {
+        width: 33%;
+        float: left;
+        text-align: center;
+        background: #fefefe;
+        margin: 0!important;
+        padding: 0!important;
+        
+    }
+    .main .title {
+        padding: 3px 0 0 0px;
+    }
+    .main span {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .tournamentfee span {
+        font-size: 8px;
+        line-height: 10px;
+        height: 20px;
+    }
+    .tournamentfee {
+        padding: 5px!important;
+    }
+    .main-content.frontline .tabbable .nav-tabs .nav-item .nav-link {
+        font-size: 10px!important;
+        padding: 7px!important;
+    }
+    .div2 {
+        position: absolute;
+        height: 150px;
+        width: 93%;
+        z-index: 2;
+        overflow: hidden;
+        display: block;
+    }
+    .right_footer, .left_footer {
+        width: 100%;
+        padding-top: 20px;
+    }
+    div#sidebarright {
+        position: absolute;
+        padding: 10px!important;
+        float: left;
+    }
+    .livechatbox {
+        width: 100%;
+        z-index: 5;
+        position: relative;
+    }
+    p#closechat {
+        width: 100%;
+    }
+    .emojionearea .emojionearea-editor {
+        color: #000!important;
+    }
+    .left-sec ul li {
+        width: 100%;
+        float: left;
+    }
+    
+    .left-sec ul li {
+        background: #ffffff;
+    }
+    .left-sec ul li h4 {
+        color: #16794e;
+        float: left;
+    }
+    .sidenav {
+        background-color: #fff;
+        z-index: 9;
+    }
+    .left-sec ul {
+        border-bottom: 8px solid #ffffff;
+    }
+    .flip-card-front .play {
+        padding: 11px 0px;
+    }
+    .gamecardmain {
+        padding: 11px!important;
+    }
+    .left_pack {
+        width: 100%;
+    }
+    .right_pack {
+        width: 100%;
+    }
+    .footer_socials ul li {
+        padding: 9px 7px;
+        width:20%;
+    }
+    .footer_socials h2 {
+        margin-bottom: 0px;
+        
+    }
+    .flip-card-back ul {
+        padding: 5px;
+    }
+    .flip-card-back.back p.gamename {
+        font-size: 11px!important;
+    }
+    tr.new_list_tournament.list_game.rob th, .new_list_tournament.list_game.rob td {
+        width: 20%;
+        font-size:7px!important;
+    }
+    tr.new_list_tournament.list_game.rob th, .new_list_tournament.list_game.rob td {
+        width: 20%;
+    }
+    tr.new_list_tournament.list_game.rob a {
+        font-size: 10px!important;
+        padding: 0px 0px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    tr.new_list_tournament.list_game.robb th, .new_list_tournament.list_game.robb td {
+        width: 14%;
+    }
+    tr.new_list_tournament.list_game.robb th, .new_list_tournament.list_game.robb td {
+        width: 14%;
+    }
+    tr.new_list_tournament.list_game.robb a {
+        font-size: 11px!important;
+        padding: 4px;
+        width: 100%;
+    }
+    .lowertournaments {
+        padding: 20px 0px 20px;
+    }
+    
+    .blocks {
+        height: 130px!important;
+        width: 97%;
+        margin: 1% 0%;
+        overflow: scroll;
+    }
+    
+    .blocks h2 {
+        padding: 8px 9px;
+        font-size: 10px;
+    }
+    .blocks h3 {
+        font-size: 10px;
+        margin: 11px 0px;
+    }
+    .main-content.frontline p {
+        font-size: 10px!important;
+        line-height: 10px;
+    }
+    .main-content .nav-tabs .nav-link {
+        min-width: 65px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .main-content.frontline .tabbable .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .join input[type="submit"] {
+        background: linear-gradient(to right,#16794e ,#1b7a4d );
+    }
+    .main_box.col-md-12.p-0 {
+    
+        padding:1%!important;
+    }
+    .main-content.frontline .nav-tabs .nav-item {
+        width: 19%;
+        margin: 1% 0.5%;
+    }
+    .tabbable.details {
+        z-index: 0;
+    }
+    .lowertournaments {
+        border: 0.5px solid #92000096;
+    }
+    
+    .left-sec.loggedoutphone img {
+        width: 66px!important;
+        position: absolute;
+        margin-left: -74px;
+        margin-top: -5px;
+       
+    }
+    .left-sec.loggedoutphone ul li h4 {
+        font-size: 16px;
+        color: #ad0018;
+        padding: 5px;
+        margin: 0;
+        text-align: left;
+        float: left;
+        font-weight: 1000;
+        height: 38px;
+    }
+    .left-sec.loggedoutphone p {
+        margin: 0;
+        font-size: 12px;
+        line-height: 14px;
+        color: #0000007a;
+        float: left;
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+    }
+    
+    .left-sec.loggedoutphone li {
+        background: url(https://fcdgaming.gg/wp-content/uploads/2019/10/menu-back.png);
+        padding: 10px;
+        width: 95%;
+        margin: 4% 1% 0% 2%;
+        background-size: 100% 100%;
+    }
+    .left-sec.loggedoutphone span.pull-right {
+        display: block;
+    }
+    .loggedoutphone div#mySidenav {
+        padding: 0px;
+        padding-top: 30px;
+    }
+    li.d-flex.lsbuttons {
+        background: none;
+    }
+    .tabbable.leaders li.nav-item .nav-link {
+        font-size: 8px;
+    }
+    .custom_foot h2 {
+        font-size: 15px;
+    }
+    .custom_foot ul li a {
+        font-size: 14px;
+    }
+    tr.new_list_tournament.list_game.robb th {
+        font-size: 10px!important;
+    }
+    .new_list_tournament.list_game.robb td {
+        font-size: 11px!important;
+        line-height: 10px;
+    }
+    .even_banner.match img {
+        max-width: 85px;
+    }
+    .each_event_description {
+        float: right;
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    .playingparties.rob.matchboxone, .playingparties.rob.matchboxtwo {
+        width: 96%;
+        height: 225px;
+        margin: 2%;
+    }
+    .matchboxthree {
+        width: 96%;
+        margin: 2% 0% 15% 2%;
+        height: 225px;
+    }
+    .even_banner {
+        width: 100%;
+        float: left;
+        background-repeat: no-repeat!important;
+        padding: 3%;
+        border-radius: 5px;
+        background-size: contain;
+        background-size: 100% 50%;
+    }
+    .left_hand {
+        float: left;
+        width: 33%;
+    }
+    .even_banner.match .right_hand h3 {
+        font-size: 10px;
+    }
+    .right_hand p {
+        font-size: 10px;
+        line-height:11px;
+    }
+    .sidenav .closebtn {
+        font-size: 36px;
+        color: #16794e;
+        right: -15px;
+        position: absolute;
+        margin-right: 30px;
+    }
+    .left-sec img {
+        width: 50px;
+        margin-top: 5px;
+        height: 50px;
+        object-fit: cover;
+    }
+    .deposit-cash a {
+        padding: 11px 8px;
+        margin-top: 0px;
+        width: 98%;
+        font-size: 10px!important;
+        height: 40px;
+    }
+    .featuretournament {
+        width: 85%;
+        height: 85%;
+    }
+    .list_tournament {
+        padding-left: 10px;
+        height: 235px;
+        width: 46%!important;
+        margin: 4.5% 1.5%!important;
+    }
+    input#updateuser {
+        width: 25%;
+    }
+    .tab-content h3 {
+        /*font-size: 18px;*/
+        font-weight: 1000;
+        padding: 16px 0px 0px 0px;
+        /*float: left;*/
+    }
+    .btnup {
+        color: white!important;
+        margin-top: 9px;
+        width: 55%!important;
+        background-size: 100% 100%;
+    }
+    input#updateuser {
+            color: white!important;
+        margin-top: 9px;
+        /*font-weight: 1000;*/
+        width: 55%!important;
+        background-size: 100% 100%;
+    }
+    .createteamm {
+          color: white!important;
+        width: 35%;
+         background-size: 100% 100%;
+    }
+    #add_team {
+        width: 45%!important;
+        color: white!important;
+         background-size: 100% 100%;
+    }
+    select#second {
+        width: 60%;
+        height: 30px;
+    }
+    .singleteamm {
+        width: 100%;
+        float: left;
+        padding: 15px 5px 5px 5px;
+    }
+    /*a#modal-509828 {*/
+    /*    width: 100%;*/
+    /*    padding: 15px 8px;*/
+    /*}*/
+    .login.modal-dialog {
+        max-width: 100%;
+    }
+    .modal-dialog.ladder-filter {
+        max-width: 95%;
+    }
+    .list_game p {
+        text-align: center;
+    }
+    .create_match form {
+        padding: 10px;
+    }
+    .tiles {
+        width: 50%;
+        padding: 10px;
+        height: 350px;
+        margin: 10px 0px 5px 85px;
+    }
+    .right_hand.buyyy select {
+        padding: 12px 140px;
+        width: 100%;
+    }
+    input#addtocartt {
+        width: 100%;
+    }
+    .merch img {
+        min-height: 205px!important;
+    }
+    .main-content p.merchname {
+        font-size: 9px!important;
+    }
+    a#logoutlink {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+    .fullwidth.homebanner h2 {
+        font-size: 13px;
+        margin-top:28%;
+    }
+    .fullwidth.homebanner h1 {
+        font-size: 16px;
+        letter-spacing:0.3px;
+    }
+    .fullwidth.homebanner h3 {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    a.enterbutton {
+        margin: -4% 0% 0% 0%;
+    }
+    ul.new_home_menu li {
+        margin: 10px 5px;
+    }
+    .eachsponsorbanner img {
+         max-width: 100%;
+    }
+    img.rewardimages {
+        width: 65px;
+        height: 53px;
+    }
+    .main-content.frontline .tabbable .tab-content {
+        padding: 5%;
+    }
+    .events_list {
+        height: auto!important;
+        max-height: 250px!important;
+        overflow: scroll;
+    }
+    .about-us p {
+        font-size: 12px!important;
+    }
+    .card-header .h5, h5 {
+        font-size: 12px;
+    }
+    .card-body {
+        font-size: 11px;
+    }
+    .col-lg-3.supportoptions {
+        width: 100%;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    

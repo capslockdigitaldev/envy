@@ -1,25 +1,27 @@
 import { combineReducers } from 'redux';
-import supportReducer from './supportReducer';
+import matchReducer from './matchReducer';
 import phoneRuleReducer from './phoneRuleReducer';
-import contactsReducer from './contactsReducer';
-import teamextensionReducer from './teamextensionReducer';
-import callHandleReducer from './callHandleReducer';
-import smsReducer from './smsReducer';
-import reportsReducer from './reportsReducer';
-import didReducer from './didReducer';
-import accessReducer from './accessReducer';
-
-
+import sticketsReducer from './sticketsReducer';
+import tournamentsReducer from './tournamentsReducer';
+import gamesReducer from './gamesReducer';
+import teamReducer from './teamReducer';
+import rewardsReducer from './rewardsReducer';
+import ordersReducer from './ordersReducer';
+import userReducer from './userReducer';
+import transactionsReducer from './transactionsReducer';
+import messageReducer from './messageReducer';
+import eventsReducer from './eventsReducer';
 export default combineReducers({
-    support: supportReducer,
+    match: matchReducer,
     rules:phoneRuleReducer,
-    contacts:contactsReducer,
-    extensions:teamextensionReducer,
-    callHandle:callHandleReducer,
-    sms:smsReducer,
-    reports:reportsReducer,
-    did:didReducer,
-    access:accessReducer
-
-
+    stickets:sticketsReducer,
+    tournaments:tournamentsReducer,
+    games:gamesReducer,
+    team:teamReducer,
+    rewards:rewardsReducer,
+    orders:ordersReducer,
+    userDetails:userReducer,
+    transactions:transactionsReducer,
+    sendmess: messageReducer,
+    events: eventsReducer
 });

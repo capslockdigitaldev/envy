@@ -1,159 +1,409 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
-
+import { withRouter } from 'react-router';
+import {NavLink} from 'react-router-dom';
+import Login from '../components/Login';
+import Signup from '../components/Signup';
+import Matchfinder from '../components/Matchfinder';
 class Footer extends Component {
-    // componentDidMount(){
-        
-    //         let win_height = $(window).outerHeight();
-    //         let header_height = $('#header nav').outerHeight();
-    //         let footer_height = $('#footer').outerHeight();
-    //         let min_height = win_height - footer_height;
-    //         $('#page_container').css('min-height', min_height + 'px');
-    //         $('#alert_message').fadeOut(10000);
-            
-       
-    // }
-    
+    constructor(props) {
+        super(props);
+        this.state = {}
+    }
+    refreshIt = (e)=>{
+        this.props.history.push(e)
+        window.location.reload()
+    } 
     render() {
-        // const footerStyle = {
-        //     clear: 'both'
-        //   };
+        const d = new Date();
+        const n = d.getFullYear();
+        const activeUrl = this.props.location.pathname;
         return (
-            <footer class="pt-4 pb-4 rob">
-            <div class="container-fluid">
-            <div class="row">
-            <div class="col-md-12">
-            <div class="custom_foot">
-            <h2>PLAY</h2>
+            <>
+            {
+                activeUrl  === '/'?
+<footer className="pt-0 pb-0 rob">
+            <div className="container">
+            <div className="footer-border-sec">
+            <div className="row">
+           
+                
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-6">
+            <h2><i className="fa fa-square-full"></i>PLAY</h2>
             <ul>
             <li>
-            <i class="far fa-circle"></i><a href="games-list/index.html">View Games</a>
+            <NavLink to="/games" >View Games</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a id="modal-509222" href="#modal-container-509222" role="button" data-toggle="modal">Matchfinder</a>
+            {/* <NavLink to="/all-matches" ><i className="far fa-circle"></i>Matchfinder</NavLink> */}
+           <a id="modal-509222" href="#modal-container-509222" role="button" data-toggle="modal">Matchfinder</a>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="all-matches/index.html">All Matches</a>
+            <NavLink to="/all-matches" >All Matches</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="all-tournaments/index.html">All Tournaments</a>
+            <NavLink to="/all-tournaments" >All Tournaments</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="user-leaderboards/index.html">Leaderboards</a>
+            <NavLink to="/leaderboard" >Leaderboards</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="events/index.html">Events</a>
+            <NavLink to="/events" >Events</NavLink>
             </li>
             </ul>
             </div>
-            <div class="custom_foot">
-            <h2>LEARN</h2>
+            
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-6">
+            <h2><i className="fa fa-square-full"></i>LEARN</h2>
             <ul>
             <li>
-            <i class="far fa-circle"></i><a href="user-about/index.html">About</a>
+            <NavLink to="/about-us" >About</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="user-faq/index.html">Rules</a>
+            <NavLink to="/user-faq" >Rules</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="user-faq/index.html">FAQ'S</a>
+            <NavLink to="/user-faq" >FAQ'S</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="user-support/index.html">Support</a>
+            <NavLink to="/user-support" >Support</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="user-contact/index.html">Contact</a>
+            <NavLink to="/contact-us" >Contact</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i>
-            <a href="#">Affiliate Program</a>
+            <NavLink to="/user-faq" >Affiliate Program</NavLink>
             </li>
             </ul>
             </div>
-            <div class="custom_foot">
-            <h2>POPULAR GAMES</h2>
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-6">
+            <h2><i className="fa fa-square-full"></i>POPULAR GAMES</h2>
             <ul>
             <li>
-            <i class="far fa-circle"></i><a href="fortnite/index.html">Fortnite</a>
+            <NavLink to="/single-game/codmw" onClick={()=>this.refreshIt('/single-game/codmw')}>Call of Duty Modern Warfare</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="nascar-heat-4/index.html">Nascar Heat 4</a>
+            <NavLink to="/single-game/codaw" onClick={()=>this.refreshIt('/single-game/codaw')}>Call of Duty Advance Warfare</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="madden-20/index.html">Madden 20</a>
+            <NavLink to="/single-game/codm" onClick={()=>this.refreshIt('/single-game/codm')}>Call of Duty Mobile</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="fifa20/index.html">FIFA 20</a>
-            </li>
-            <li>
-            <i class="far fa-circle"></i><a href="rocket-league/index.html">Rocket League</a>
-            </li>
-            <li>
-            <i class="far fa-circle"></i><a href="nba2k20/index.html">NBA 2K20</a>
-            </li>
-            <li>
-            <i class="far fa-circle"></i><a href="super-smash-bros/index.html">Super Smash Bros</a>
+            <NavLink to="/single-game/codbo3" onClick={()=>this.refreshIt('/single-game/codbo3')}>Call of Duty Black Ops 3</NavLink>
             </li>
             </ul>
             </div>
-            <div class="custom_foot">
-            <h2>CONNECT</h2>
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-6">
+            <h2><i className="fa fa-square-full"></i>CONNECT</h2>
             <ul>
             <li>
-            <i class="far fa-circle"></i><a href="user-faq/index.html">My Stream</a>
+            <NavLink to="/dashboard" > My Stream</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="user-faq/index.html">Team Stream</a>
+            <NavLink to="/dashboard" > Team Stream</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="bracket-generator/index.html">Bracket Generator</a>
+            <NavLink to="/dashboard" >Bracket Generator</NavLink>
             </li>
             <li>
-            <i class="far fa-circle"></i><a href="my-tournaments/index.html">View Brackets</a>
+            <NavLink to="/dashboard" >View Brackets</NavLink>
             </li>
             </ul>
             </div>
-            <div class="lowerfooter">
-            <div class="right_footer text-center">
-            <img class="img-fluid m-4 footer_logo" src="../res.cloudinary.com/dnv0dij0y/image/upload/v1576156671/logo/menu-icon-4_4_2_r6cwcz.png"/>
-            </div>
-            <div class="left_footer">
-            <div class="footer_socials">
-            <h2>SOCIAL</h2>
-            <ul>
+            <div className="lowerfooter py-2 align-items-center d-flex justify-content-center">
+            <div className="left_footer">
+            <div className="footer_socials w-100">
+            {/* <h2>SOCIAL</h2> */}
+            <ul className="align-items-center d-flex justify-content-center text-center mb-0">
             <li>
-            <a target="_blank" href="https://twitter.com/TeamConnor1"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://twitter.com/envy"><i className="fab fa-twitter"></i></a>
             </li>
             <li>
-            <a target="_blank" href="https://www.facebook.com/TeamConnor"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.facebook.com/Envy"><i className="fab fa-facebook-f"></i></a>
             </li>
             <li>
-            <a target="_blank" href="https://www.twitch.tv/"><i class="fab fa-twitch"></i></a>
+            <a target="_blank" href="https://www.twitch.tv/team/teamenvyus"><i className="fab fa-twitch"></i></a>
             </li>
             <li>
-            <a target="_blank" href="https://www.youtube.com/user/"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://www.youtube.com/user/TeamEnVyUs"><i className="fab fa-youtube"></i></a>
             </li>
             <li>
-            <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.instagram.com/teamenvy"><i className="fab fa-instagram"></i></a>
             </li>
             </ul>
             </div>
             </div>
+            <div className="right_footer text-center">
+            <img className="img-fluid m-4 footer_logo" src="/assets/img/games/foot-logo.png" alt=""/>
+            </div>
+      
             </div>
             </div>
             </div>
+            <div className="copy-right">
+            <div className="pull-left  align-items-center d-flex justify-content-center mt-2">
+            <p><small>© {n} TEAM ENVY</small></p>
             </div>
-            <div class="copy-right">
-            <span class="pull-left">
-            <p><small>© 2019 TEAM CONNOR</small></p>
+            <span className="pull-right  align-items-center d-flex justify-content-center">
+                <ul className="pl-0">
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Join Us</a></li>
+                    <li><a href="">Terms Of Service</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+
+
+                </ul>
             </span>
-            <span class="pull-right">
-            </span>
             </div>
-            </footer>
+            </div>
+       
+            </footer>:
+            <footer className="pt-0 pb-0 rob">
+            <div className="container">
+            <div className="footer-border-sec">
+            <div className="row">
+           
+                
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-12">
+            <h2><i className="fa fa-square-full"></i>PLAY</h2>
+            <ul>
+            <li>
+            <NavLink to="/games" >View Games</NavLink>
+            </li>
+            <li>
+            {/* <NavLink to="/all-matches" ><i className="far fa-circle"></i>Matchfinder</NavLink> */}
+           <a id="modal-509222" href="#modal-container-509222" role="button" data-toggle="modal">Matchfinder</a>
+            </li>
+            <li>
+            <NavLink to="/all-matches" >All Matches</NavLink>
+            </li>
+            <li>
+            <NavLink to="/all-tournaments" >All Tournaments</NavLink>
+            </li>
+            <li>
+            <NavLink to="/leaderboard" >Leaderboards</NavLink>
+            </li>
+            <li>
+            <NavLink to="/events" >Events</NavLink>
+            </li>
+            </ul>
+            </div>
+            
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-12">
+            <h2><i className="fa fa-square-full"></i>LEARN</h2>
+            <ul>
+            <li>
+            <NavLink to="/about-us" >About</NavLink>
+            </li>
+            <li>
+            <NavLink to="/user-faq" >Rules</NavLink>
+            </li>
+            <li>
+            <NavLink to="/user-faq" >FAQ'S</NavLink>
+            </li>
+            <li>
+            <NavLink to="/user-support" >Support</NavLink>
+            </li>
+            <li>
+            <NavLink to="/contact-us" >Contact</NavLink>
+            </li>
+            <li>
+            <NavLink to="/user-faq" >Affiliate Program</NavLink>
+            </li>
+            </ul>
+            </div>
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-12">
         
+            <h2><i className="fa fa-square-full"></i>POPULAR GAMES</h2>
+            <ul>
+            <li>
+            <NavLink to="/single-game/codmw" onClick={()=>this.refreshIt('/single-game/codmw')}>Call of Duty Modern Warfare</NavLink>
+            </li>
+            <li>
+            <NavLink to="/single-game/codaw" onClick={()=>this.refreshIt('/single-game/codaw')}>Call of Duty Advance Warfare</NavLink>
+            </li>
+            <li>
+            <NavLink to="/single-game/codm" onClick={()=>this.refreshIt('/single-game/codm')}>Call of Duty Mobile</NavLink>
+            </li>
+            <li>
+            <NavLink to="/single-game/codbo3" onClick={()=>this.refreshIt('/single-game/codbo3')}>Call of Duty Black Ops 3</NavLink>
+            </li>
+            </ul>
+            </div>
+            <div className="custom_foot col-lg-3 col-md-6 col-sm-12">
+            <h2><i className="fa fa-square-full"></i>CONNECT</h2>
+            <ul>
+            <li>
+            <NavLink to="/dashboard" > My Stream</NavLink>
+            </li>
+            <li>
+            <NavLink to="/dashboard" > Team Stream</NavLink>
+            </li>
+            <li>
+            <NavLink to="/dashboard" >Bracket Generator</NavLink>
+            </li>
+            <li>
+            <NavLink to="/dashboard" >View Brackets</NavLink>
+            </li>
+            </ul>
+            </div>
+            <div className="lowerfooter py-2 align-items-center d-flex justify-content-center">
+            <div className="left_footer">
+            <div className="footer_socials w-100">
+            {/* <h2>SOCIAL</h2> */}
+            <ul className="align-items-center d-flex justify-content-center text-center mb-0">
+            <li>
+            <a target="_blank" href="https://twitter.com/envy"><i className="fab fa-twitter"></i></a>
+            </li>
+            <li>
+            <a target="_blank" href="https://www.facebook.com/Envy"><i className="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+            <a target="_blank" href="https://www.twitch.tv/team/teamenvyus"><i className="fab fa-twitch"></i></a>
+            </li>
+            <li>
+            <a target="_blank" href="https://www.youtube.com/user/TeamEnVyUs"><i className="fab fa-youtube"></i></a>
+            </li>
+            <li>
+            <a target="_blank" href="https://www.instagram.com/teamenvy"><i className="fab fa-instagram"></i></a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <div className="right_footer text-center">
+            <img className="img-fluid m-4 footer_logo" src="/assets/img/games/foot-logo.png" alt=""/>
+            </div>
+      
+            </div>
+            </div>
+            </div>
+            <div className="copy-right">
+            <div className="pull-left  align-items-center d-flex justify-content-center mt-2">
+            <p><small>© {n} TEAM ENVY</small></p>
+            </div>
+            <span className="pull-right  align-items-center d-flex justify-content-center">
+                <ul className="pl-0">
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Join Us</a></li>
+                    <li><a href="">Terms Of Service</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+
+
+                </ul>
+            </span>
+            </div>
+            </div>
+       
+            </footer>
+            }
+            
+
+
+<div className="modal fade" id="modal-container-509789999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div className="logo-image text-center">
+    <img className="img-fluid footer_logo" src="/assets/img/games/foot-logo.png" alt=""></img>
+        {/* <img src="https://res.cloudinary.com/dnv0dij0y/image/upload/v1574922448/logo/tcgaminglogo_l1jssw.png" alt="" className="img-fluid"/> */}
+    </div>
+    <div className="login team modal-dialog ladder-filter" role="document">
+        <div className="login modal-content">
+            <div className="login modal-header text-center">
+                <h5 className="modal-titl text-center w-100 creategametitle" id="myModalLabel">Submit Result</h5>
+            </div>
+        <div className="modal-body list_game">
+            <form method="post" action="/user-support/">
+                <div className="cg-step-1">
+                    <p>Select a Game</p>
+                    <div className="ressub" id="toursubmitres"><input type="hidden" className="selectedmatchtour" name="selectedmatch" value="tournament" disabled /><h2><i className="fas fa-trophy"></i> Tournament</h2></div>
+                    <div className="ressub" id="laddersubmitres"><input type="hidden" className="selectedmatchladder" name="selectedmatch" value="ladder" disabled /><h2><i className="fas fa-gamepad"></i> Ladder Match</h2></div>
+                </div>
+            <div className="cg-step-2">
+                <div className="postTitleOuter">
+                    <label>Tournament Id</label>
+                    <input type="text" name="tourid" className="tourid" required />
+                    <input type="hidden" name="submittedby" />
+                </div>
+                <div className="postTitleOuter">
+                    <label>Round Number</label>
+                    <input type="number" name="roundno" className="roundno" required />
+                </div>
+                <div className="postTitleOuter">
+                    <label>Score</label>
+                    <input type="number" name="tourscore" className="tourscore" required />
+                </div>
+                <div className="postTitleOuter">
+                    <label></label>
+                    <input type="submit" id="toursubmitresbtn" name="submitscore" disabled />
+                </div>
+            </div>
+            <div className="cg-step-3">
+                <div className="postTitleOuter">
+                    <label>Match Id</label>
+                    <input type="text" name="matchid" className="matchid" required />
+                    <input type="hidden" name="submittedby" />
+                </div>
+                <div className="postTitleOuter">
+                    <label>Score</label>
+                    <input type="number" name="matchscore" className="matchscore" required />
+                </div>
+                <div className="postTitleOuter">
+                    <label></label>
+                    <input type="submit" id="laddersubmitresbtn" name="submitscore" disabled />
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+<div className="modal fade" id="modal-container-50778" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div className="logo-image text-center">
+    <img className="img-fluid footer_logo" src="/assets/img/games/foot-logo.png" alt=""></img>
+        {/* <img src="https://res.cloudinary.com/dnv0dij0y/image/upload/v1574922448/logo/tcgaminglogo_l1jssw.png" alt="" className="img-fluid" /> */}
+    </div>
+    <div className="modal-dialog" role="document">
+        <div className="modal-content rob">
+            <div className="modal-header text-center">
+                <h5 className="modal-titl text-center w-100 creategametitle" id="myModalLabel">Report an issue</h5>
+            </div>
+        <div className="modal-body create_match">
+   
+            <form method="post" name="supportform" action="">
+            <div className="postTitleOuter">
+            <label>Username</label>
+            <input type="hidden" name="support_raisedby" value="" />
+            <input type="text" name="support_username" value="" readOnly />
+            <br/>
+            <label>Type</label>
+            <select name="matchtype" className="matchtype">
+                <option value="match">Ladder Match</option>
+                <option value="tournament">Tournament</option>
+                <option value="other">Other</option>
+            </select>
+            <br/>
+            <div id="ticketmatchid">
+            <label>Match/Tournament ID</label>
+            <input type="text" name="support_matchid" />
+            {/* <input type="text" name="support_matchid"  readOnly />
+            <input type="text" name="support_matchid"  readOnly /> */}
+            </div>
+            <label>Describe the Issue</label>
+            <input type="text" id="supportissue" name="support_issue" placeholder="Go ahead we are listening..." />
+            <input type="Submit" name="submitticket" />
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+<Matchfinder/>
+<Login/>
+<Signup/>
+
+        </>
         );
     }
 }
 
-export default Footer;
+export default withRouter(Footer);

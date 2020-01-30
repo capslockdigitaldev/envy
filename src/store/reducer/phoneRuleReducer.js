@@ -16,12 +16,7 @@ const phoneRuleReducer = (state=IntialState,action)=>{
                 ...state,
                 loading:true
             }
-        case types.FETCH_DID_SUCCESS:
-            return{
-                ...state,
-                didData:action.payload,
-                loading:false
-            }
+       
         case types.FETCH_RULES_SUCCESS:
             return{
                 ...state,

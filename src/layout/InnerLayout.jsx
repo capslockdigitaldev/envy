@@ -9,7 +9,7 @@ class InnerLayout extends Component {
     render() {
         return (
             <>
-                <Header />
+                <Header/>
                 <div id="page_container">
                     <SideNavBar />
                     <div className="main_container">

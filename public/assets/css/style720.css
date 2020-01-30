@@ -1,0 +1,931 @@
+@media only screen and (max-width: 768px) {
+
+
+    .userpro input {
+        width: 100%;
+    }
+    .main-content.profile-section .main-content.frontline .nav-tabs .nav-item {
+        margin: 1% 2%;
+    }
+    .main-content.profile-section .main-content.frontline .nav-tabs .nav-link {
+        /* min-width: 120px; */
+        font-size: 9px;
+        
+    }
+
+    .text-left.time-zone p {
+        width: 100%;
+    }
+    .row.tour-prizes .col-md-8 {
+        margin: 8px 10px;
+        max-width: 100%;
+  
+    }
+    .float-right a.btn.btn-primary {
+
+        margin-bottom: -26px!important;
+    }
+
+    .row.tour-prizes ul li {
+        float: left;
+        width: 32%;
+        padding: 0 6px;
+    
+    }
+    .col-lg-4.des-id {
+        margin-top: 44px;
+    }
+
+    .sidenav .left-sec ul li {
+        padding: 8px 10px!important;
+    }
+    
+    
+    ul.new_home_menu {
+        width: 50%;
+    }
+    .custom_foot ul li a {
+        font-size: 12px;
+    }
+    .custom_foot h2 {
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+    .footer_logo {
+        max-width: 95%;
+    }
+    .footer_socials ul li {
+        padding: 20px 6px;
+    }
+    a.learnmoredash {
+        padding: 5px 11px;
+        font-size: 15px;
+        margin: -15% 0% 0% 8%;
+    }
+    .fortypercent {
+        width: 100%;
+    }
+    .fortypercent h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .fortypercent p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .sixtypercent {
+        width: 100%;
+    }
+    .sixtypercent img {
+        width: 97%;
+        padding: 1px 0px 20px 15px;
+    }
+    .fullwid {
+        padding: 10px 0px 45px 0px;
+    }
+    .fullwid img {
+        float: left;
+        width: 95%;
+    }
+    a.enterbutton {
+        margin: 44% 0% 10% 0%;
+    }
+    a.enterbutton img {
+        width: 80%;
+    }
+    .scroller::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(to top,#16794e, #e19322);
+    }
+    p.partdate {
+        width: 70%;
+        margin: 0% 1%;
+    }
+    p.orstatus {
+        width: 70%;
+        margin: 0px 42px;
+    }
+    p.ordertotall {
+        width: 70%;
+    }
+    .row.ordersumm {
+        margin: 0% 0%;
+        text-align: center;
+    }
+    .orderpoints {
+        margin: 1% 0%;
+    }
+    .info_p_tour.dark h1 {
+        font-size: 25px;
+    }
+    .four {
+        width: 15%;
+    }
+    .right_pack h3 {
+        font-size: 12px;
+    }
+    .right_pack p {
+        font-size: 12px;
+    }
+    .follow a {
+        background: #16794e;
+        padding: 2px 15px;
+        border-radius: 0px;
+    }
+    header ul.navbar-nav li.nav-item a.nav-link {
+        line-height: 5;
+        font-size: 15px;
+    }
+    header .nav-item {
+        padding: 0px;
+    }
+    .navbar-brand {
+        margin-right: 8%;
+    }
+    .abt-logo img {
+        width: 35%;
+    }
+    
+    .main-content .col-md-2 {
+        min-width: 31%;
+        max-width: 31%;
+    }
+    /*.flipfront {*/
+    /*    width: 65%;*/
+    /*    max-width: 65%;*/
+    /*}*/
+    .flip-card-back.back p.gamename {
+        padding: 0px 0px;
+    }
+    .flip-card-back.back p.gamename {
+        font-size: 12px!important;
+        color: black;
+        margin-top: 0px;
+        opacity: 1;
+    }
+    .flip-card-back ul {
+        padding: 0px;
+    }
+    li.text-center.enabled {
+        padding: 0px 0px;
+    }
+    .flip-card-back ul li {
+        padding: 0px 0;
+    }
+    .flip-card-back {
+        padding: 0px 7px 0px 7px;
+    }
+    
+    .flip-card-back ul p {
+        font-size: 9px!important;
+    }
+    .choosegame {
+        padding: 10px 1px;
+    }
+    .chooseplat {
+        width: 30%;
+        padding: 15px 5px;
+    }
+    .main-content .nav-tabs .nav-item {
+        width: 25%;
+    }
+    
+    .left_hand {
+        float: inherit;
+        width: 33%;
+    }
+    .even_banner.match .right_hand h3 {
+        font-size: 13px;
+            padding: 0px 0px;
+    }
+    .even_banner {
+        padding: 2%;
+        height: 15%;
+    }
+    .even_banner.match img {
+        max-width: 30%;
+        min-width: 30%;
+            padding: 4px;
+    }
+    .each_event_description {
+        float: right;
+        width: 100%;
+    }
+    .inviteuserlist.scroller::-webkit-scrollbar-thumb {
+        background: #187a4d;
+    }
+    .searchProduct label {
+        font-size: 12px;
+    }
+    h2.commonheading {
+        font-size: 20px;
+    }
+    
+    .blocks h4 {
+        font-size: 12px;
+    }
+    .blocks h5 {
+        font-size: 15px;
+        padding: 0px 0px 5px 0px;
+    }
+    .social-links li {
+        font-size: 12px;
+    }
+    
+    .reportissuetourr {
+        padding: 2px;
+        font-size: 12px;
+        font-weight: 800;
+        border-radius:0px;
+    }
+    ul.sociall-linkss li a {
+        background: none!important;
+        border: none!important;
+         margin: 5px 0px 17px 6px!important;
+    }
+    .main-content .nav-tabs .nav-link {
+        padding: 8px 1px;
+    }
+    tr.new_list_tournament.list_game.rob th {
+        font-size: 10px!important;
+    }
+    .event_image {
+        float: left;
+        width: 35%;
+    }
+    .event_description {
+        float: left;
+        width: 65%;
+    }
+    .singleevent p {
+        color: #050505;
+        font-size: 10px;
+    }
+    .tcthings {
+        width: 45%;
+    }
+    p.location {
+        color: #000000;
+    }
+    .tcthingsthree a {
+        padding: 5px 12px;
+        font-size: 10px;
+        margin: 0% 0% 0% 18%;
+    }
+    .tcthingstwo h1 {
+        font-size: 20px;
+    }
+    .tcthingsone h3 {
+        font-size: 11px;
+    }
+    .flip-card-back form {
+        height: 15px;
+    }
+    li.text-center.disabled {
+        height: 15px;
+    }
+    .gameplaticons {
+        max-width: 15%;
+    }
+    
+    h4.user_name {
+        font-size: 14px!important;
+    }
+    
+    ._bucks span {
+        font-size: 14px!important;
+    }
+    .btnup {
+        width: 30%!important;
+    }
+    .tcthingsthree {
+        background: #ee9922;
+    }
+    .singleteamm {
+        width: 25%;
+    }
+    .supportucp p {
+        font-size: 10px;
+    }
+    .singleteamm .supportucp {
+        padding: 10px 0px 0px 0px;
+    }
+    .supportucp p {
+        padding: 5px 0px!important;
+    }
+    .list_tournament.list_game .tournamentfee {
+        padding: 5px 5px 0px 5px!important;
+        font-size: 10px;
+        float: right;
+    }
+    .list_tournament.list_game .tournamentfee span {
+        font-size: 10px;
+    }
+    a.seeactivematches {
+        padding: 2px!important;
+    }
+    .col-lg-3.supportoptions {
+        width: 50%;
+    }
+    .searchProduct input, .searchProduct a {
+        padding: 4% 1%;
+        font-size: 9px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .sidenav span h4 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    
+    .left-sec.rob.mt-2 span.pull-right {
+        margin-top: -8px;
+    }
+    .sidenav .left-sec img {
+        width: 40px;
+        margin-top: 0px;
+    }
+    .sidenav .left-sec ul li {
+        border-bottom: 1px solid #24ddb2;
+    }
+    .sidenav .closebtn {
+        font-size: 36px;
+        color: #fff;
+        right: -15px;
+    }
+    .left-sec .sidenav ul li {
+        padding: 5px 5px!important;
+    }
+    .left-sec.rob.mt-2.d-xl-none.d-md-none.d-sm-block.d-block {
+        height: 0px!important;
+        margin: 0px!important;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+
+        .col-md-merch {
+            float: left;
+            width: 100%!important;
+        }
+
+        .dallas-empire {
+            margin-top: 20%;
+            width: 100%;
+        }
+        .fortypercent h2 {
+            font-size: 24px;
+            
+        }
+        
+        .homebanner {
+            background: NONE;
+        
+            background-color: rgba(255,255,255,0.7);
+        }
+        
+  
+
+        .enter-btn.float-left.w-100 img {
+            width: 219px!important;
+            margin: 0 0 -63px 0;
+        }
+        .enter-btn.float-left.w-100 img {
+            position: unset;
+            margin-top: -52px;
+        }
+        .reward-prizes h2 {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        .reward-prizes .col-lg-4 {
+            max-width: 100%!important;
+        }
+        .empire-leaderboard h2.mb-4 {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        .climb-details .float-right span b {
+            font-size: 30px;
+            margin-top: -10px;
+        }
+        .climb-details h2 {
+            font-size: 16px;
+        }
+        .shop-merch .btn.btn-outline-secondary {
+            font-size: 14px;
+            margin-top: 38%;
+        }
+        .climb-ranks .climb-details .float-right span {
+            font-size: 14px!important;
+        }
+        .reward-prizes .col-lg-4 img {
+            margin-top: -30px;
+  
+        }
+        .climb-details img {
+            width: 100px;
+            height: 100px;
+        }
+
+
+        .home-team h1 {
+            font-size: 20px;
+        }
+        .home-team h3 {
+            font-size: 16px;
+        }
+.home-team .btn.btn-outline-secondary {
+    font-size: 14px;
+}
+
+
+
+
+
+    .left-sec {
+       border: 0px solid #6e6e6e!important; 
+    } 
+    header {
+        min-height: 60px!important;
+        max-height: 60px!important;
+    }
+    tr.new_list_tournament.list_game.rob th, .new_list_tournament.list_game.rob td {
+        font-size: 8px!important;
+        width: 15.66%;
+        padding: 4px 3px;
+    }
+    .platformlogo {
+        width: 6%!important;
+    }
+    th.platformlogo {
+        opacity: 0;
+    }
+    .platformlogo img {
+        max-width: 15px;
+    }
+    tr.new_list_tournament.list_game.rob a {
+        padding: 2px 0px;
+        border-radius: 5px;
+       
+    }
+    .logodata {
+        display: none;
+    }
+    .sixty.one {
+        padding: 18px 5%;
+    }
+    .sixty.one p {
+        width: 100%;
+    }
+    .events_box , .events_list {
+        width: 100%;
+    }
+    .leaders a.nav-link {
+        
+        height: 38px!important;
+        color:black;
+        font-weight:300;
+    }
+    .four {
+        width: 50%;
+    }
+    .events_page {
+        padding: 2%;
+    }
+    .day {
+        margin: 0;
+        padding-top: 5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        font-size: 9px;
+        margin-bottom: -25px;
+    }
+    .even_banner {
+    
+        padding: 3% 5%;
+    }
+    .right_hand, .left_hand {
+        float: left;
+        width: 100%;
+    }
+    .right_hand h3 {
+        font-size: 22px;
+        padding-top: 20px;
+        margin: 5% 0% 0% 0%;
+    }
+    
+    .list_tournament.list_game.rob {
+        width: 100%;
+        float: left;
+    }
+    .list_tournament.list_game.rob .tournament_image {
+        height: 100%;
+    }
+    .infinite-scroll {
+        min-height: 500px;
+        position: relative;
+    }
+    .list_tournament.list_game .tournamentfee span {
+    
+        font-size: 12px;
+        line-height: 10px;
+        height: auto;
+        border-bottom: 1px solid #d5d5d5;
+        padding: 0px 0px 5px 1px;
+        font-weight: 700;
+        color: #878787;
+    }
+    .list_tournament.list_game .tournamentfee a {
+        width: 60px;
+        padding: 2px;
+    }
+    .join {
+        padding: 5px;
+        width: 96%;
+        margin: 2%;
+    }
+    .join input[type="submit"] {
+        background: linear-gradient(to right,#008af3 ,#01b387 );
+        padding: 5px 18px;
+        text-align: center;
+        color: white;
+        font-size: 11px;
+        border: none;
+        margin: 5px 0px 0px;
+        float: left;
+        width: 100%;
+        border-radius: 5px!important;
+    }
+    .matchresult input {
+        width: 100%;
+        border-radius: 5px!important;
+        padding: 3px 5px;
+        font-size: 14px;
+    }
+    .forty.one p {
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+    }
+    
+    .sixty.one h3, .forty.one h3 {
+        font-weight: 300;
+    }
+    .sixty.one h3 span , .fifty h2 span , .sixty.one.two h3 span {
+        font-weight: 1000;
+        font-size: 25px;
+    }
+    .double.one {
+        padding: 0px;
+    }
+    .fifty h2 {
+        font-size: 20px;
+    }
+    .fifty p {
+        font-size: 20px;
+        padding: 0% 0% 2% 0%;
+    }
+    .fifty ul li {
+        font-size: 12px;
+        margin: 6px 0px;
+        width: 100%;
+        padding: 0px 0px 3px 0px;
+        border-bottom: 1px solid #0000001f;
+    }
+    .fifty ul {
+        padding: 0px;
+    }
+    .fifty.righty h2 {
+        text-align: left;
+    }
+    .fifty img {
+        width: 100%;
+        margin: -5% 0% 0% 0%;
+    }
+    .sixty.one.two p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 1px 0px 5px 0px;
+        border-bottom: 1px solid #00000042;
+        padding: 7px 0px;
+        color: #000000d6;
+        float: left;
+        width: 100%;
+    }
+    img.lin2 {
+        display: none;
+    }
+    .showafterfsec {
+        display: none;
+    }
+    .loadingscreen {
+        padding: 70px 30% 280px;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    p.notification {
+        color: #414141;
+        width: 100%;
+        padding: 10px;
+        background: #f2f2f2;
+        margin: 5px 0px;
+        float: left;
+        text-align: left;
+        font-size: 14px;
+        border-left: 4px solid #01d2ca;
+    }
+    
+    .singletournamentsbrackets {
+        height: 400px;
+        overflow: scroll;
+        float: left;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /**---------------------------------------------------------------**/
+    /** 8 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket8 {
+        width: 24px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket8 img.bracketimage2 {
+        margin-top: 19px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket8 img {
+        margin-top: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket8 {
+        width: 24px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket8 img.bracketimage2 {
+        margin-top: 28px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket8 img {
+        margin-top: 27px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket8 {
+        width: 25px;
+    }
+    /** 4 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket4 {
+        width: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket4 img.bracketimage2 {
+        margin-top: 18px;
+    }
+    /** 16 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket16 {
+        width: 25.6px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket16 img.bracketimage2 {
+        margin-top: 16px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket16 img {
+        margin-top: 21.4px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket16 {
+        width: 25.55px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket16 img.bracketimage2 {
+        margin-top: 27px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket16 img {
+        margin-top: 21.5px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket16 {
+        width: 27.3px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket16 img.bracketimage2 {
+        margin-top: 18px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket16 img {
+        margin-top: 71px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket16 {
+        width: 23.3px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket16 {
+        width: 24px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket16 img.bracketimage2 {
+        margin-top: 159px;
+    }
+    /** 32 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket32 {
+        width: 33.7px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket32 img.bracketimage2 {
+        margin-top: 17px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket32 img {
+        margin-top: 22.2px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket32 {
+        width: 33.7px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket32 img.bracketimage2 {
+        margin-top: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket32 img {
+        margin-top: 22.8px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket32 {
+        width: 34.8px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket32 img {
+        margin-top: 69.5px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket32 img.bracketimage2 { 
+        margin-top: 22px;
+    }
+    
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket32 {
+        width: 30.5px;
+    }.publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 {
+        width: 35px;
+    }
+    
+    
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 {
+        width: 33px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 img.bracketimage2 {
+        margin-top: 159px;
+    }
+    
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 img {
+        margin-top: 300px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket32 {
+        width: 59px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket32 img.bracketimage4 {
+        margin-top: 191px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster7.newstyle7doublebracket32 {
+        width: 33px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster7.newstyle7doublebracket32 img.bracketimage4 {
+        margin-top: 342px;
+    }
+    /**---------------------------------------------------------------**/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket64 {
+        width: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket64 img {
+        margin-top: 23px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket64 img.bracketimage2 {
+        margin-top: 17px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket64 {
+        width: 23px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket64 img {
+        margin-top: 28.7px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket64 img.bracketimage2 {
+        margin-top: 28px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket64 {
+        width: 22px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket64 img {
+        margin-top: 88px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket64 img.bracketimage2 {
+        margin-top: 29px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket64 {
+        width: 22.3px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket64 img.bracketimage4 {
+        margin-top: 76px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket64 {
+        width: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket64 img {
+        margin-top: 182.1px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket64 img.bracketimage2 {
+        margin-top: 156px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket64 img {
+        margin-top: 301px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket64 {
+        width: 44.4px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket64 img {
+        margin-top: 364px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket64 img.bracketimage4 {
+        margin-top: 190px;
+    }
+    .leftchat p {
+        float: left!important;
+        padding: 7px;
+    }
+    .rightchat p {
+        float: right!important;
+        padding: 7px;
+        color: #dedede;
+        background: #212121;
+    }
+    
+    .blocks {
+        float: left;
+        width: 28%;
+        text-align: center;
+        margin: 0% 2.66%;
+        background: url(https://fcdgaming.gg/wp-content/uploads/2019/10/FCD-Match-Ladder-Chat-OFF-1.jpg);
+        background-size: 100% 100%;
+        height: 238px;
+    }
+    
+    .blocks h2 {
+        text-align: left;
+        font-weight: 1000;
+        padding: 8px 10px;
+        font-size: 17px;
+        color: #910000;
+    }
+    .blocks h3 {
+        font-weight: 1000;
+        text-transform: uppercase;
+        color: black;
+            font-size: 15px;
+        margin: 40px 0px 20px 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .blocks {
+        float: left;
+        width: 28%;
+        text-align: center;
+        margin: 0% 2.66%;
+        background: none;
+        background-size: 100% 100%;
+        height: 200px!important;
+    }
+    .userpro input {
+        border: 1px solid #ad0018a6;
+    }
+    .lowertournaments {
+        float: left;
+        width: 100%;
+        border: 1px solid #910000;
+        padding: 75px 30px 75px;
+        margin: 30px 0px;
+    }

@@ -1,76 +1,119 @@
 import React, { Component } from 'react';
-
+import { connect } from 'react-redux';
+import {userData} from './../store/helpers/common';
 class dashboard extends Component {
     render() {
+		let test;
+		userData('yyy', 'nickname').then(function(data) {
+			console.error("%c %s", "font-size:50px; color:olive;","response data-- ", data);
+			return test = data;
+		});
+
+		console.log("%c %s", "font-size:50px; color:aqua;",test);
         return (
             <>
-                <section className="upper_section ext-cls-m">
-                    <h4><span className="title_top">Dashboard</span></h4>
-                </section>
-                <section className="lower_section">
-                    <div className="row"> 
-                    <div className=" col-md-12">
-                        <div className="dashboard-sec-1">
-                            <div className="col-md-3 col-sm-6">
-                                <div className="mini-stat bg-blue">
-                                    <span className="mini-stat-icon"><i className="glyphicon glyphicon-sort-by-order-alt"></i></span>
-                                    <div className="mini-stat-info text-right">
-                                        <span className="counter">8</span>Numbers
-                                        </div>
-                                    <h5><a href="buy_number_inner.html" className="pull-left dash-ach">Add Number</a> <a href="buy_number.html" className="pull-right"><i className="glyphicon glyphicon-arrow-right"></i></a></h5>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6">
-                                <div className="mini-stat bg-purple">
-                                    <span className="mini-stat-icon"><i className="glyphicon glyphicon-transfer"></i></span>
-                                    <div className="mini-stat-info text-right">
-                                        <span className="counter">10</span>Forwarding Rule
-                                        </div>
-                                    <h5><a href="main_forwardingrule_new.html" className="pull-left dash-ach">Add Rule </a><a href="main_forwardingrule_new.html" className="pull-right"><i className="glyphicon glyphicon-arrow-right"></i></a></h5>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6">
-                                <div className="mini-stat bg-yellow">
-                                    <span className="mini-stat-icon"><i className="glyphicon glyphicon-file"></i></span>
-                                    <div className="mini-stat-info text-right">
-                                        <span className="counter">5</span>Contacts
-                                        </div>
-                                    <h5><a href="contacts.html" className="pull-left dash-ach">Add Contact</a> <a href="contacts.html" className="pull-right"><i className="glyphicon glyphicon-arrow-right"></i></a></h5>
-                                </div>
-                            </div>
-
-                            <div className="col-md-3 col-sm-6">
-
-                                <div className=" mini-stat bg-pink">
-                                    <div className="row">
-                                    <div className="col-md-6 col-xs-12 team-ext  text-center">
-                                        <h4 className="col-md-12 no-padding">User/Extensions</h4>
-                                        <span className="mini-stat-icon">20</span>
-                                        <h5 className="col-md-12"><a className=" dash-ach" href="#">View </a></h5>
-                                    </div>
-                                    <div className="col-md-6 col-xs-12 team-ext text-center">
-                                        <h4 className="col-md-12 no-padding">Teams</h4>
-                                        <span className="mini-stat-icon">8</span>
-                                        <h5 className="col-md-12"><a className=" dash-ach" href="#">View </a></h5>
-                                    </div>
-                                    </div>
-                                </div>
-
-                            </div>
+			<div className="container">
+<div id="mainpage" className="main_box col-md-12 p-0">
+		<div className="main-content support frontline text-left mt-3 pt-4">
+		
+			<h2 className="commonheading">MY DASHBOARD</h2>
+		
+		{/* <div className="main-content frontline mt-2">
+			<div className="leader-brd">
+				<h3 className="mb-0">Welcome 
+				                </h3>
+			</div>
+		</div> */}
+	<div className="">
+	<h3 className="text-center w-100 py-4 float-left">WELCOME - ZACK LEE</h3>
+		
+			    <div className="tcs">
+			    <div className="tcthings text-center">
+                 <div className="tcthingsone">
+			            <h3>XP &nbsp;<div className="tooltipp"><i className="fa fa-info-circle" aria-hidden="true"></i>
+                        <span className="tooltipptext">XP's are the Experience Points, User gets XP's When he/she wins or particiate in a ladder match or tournament.</span>
+                        </div></h3>
+			        </div>			        
+			        <div className="tcthingstwo">
+			            <h1>	<strong>0  XP</strong></h1> 
+    					
+			        </div>
+			        <div className="tcthingsthree">
+			            <a href="/games">Challenge</a>
+			            </div>
+			    </div>
+			    <div className="tcthings text-center">
+                 <div className="tcthingsone">
+			            <h3>Redeemable XP &nbsp;<div className="tooltipp"><i className="fa fa-info-circle" aria-hidden="true"></i>
+                                  <span className="tooltipptext">Redeemable XP's can be used to purchase rewards.</span>
+                                </div></h3>
+			        </div>			        
+			        <div className="tcthingstwo">
+			            <h1><strong>0</strong></h1> 
+    					
+			        </div>
+			        <div className="tcthingsthree">
+			           <a href="/rewards">Redeem</a>
+			            </div>
+			    </div>
+			    <div className="tcthings text-center">
+                 <div className="tcthingsone">
+			            <h3>Envy Bucks</h3>
+			        </div>			        
+			        <div className="tcthingstwo">
+			            <h1><strong>0</strong></h1> 
+    				
+			        </div>
+			        <div className="tcthingsthree">
+			        <a id="modal-509828" href="#modal-container-509823" role="button" data-toggle="modal">Add</a>
+			            </div>
+			    </div>
+			     <div className="tcthings text-center">
+                 <div className="tcthingsone">
+			            <h3>Prime Membership</h3>
+			        </div>			        
+			        <div className="tcthingstwo">
+			            <h1><strong>Inactive</strong></h1> 
+			        </div>
+			        <div className="tcthingsthree">
+			      <a href="JavaScript:void(0);" disable="true">Add Frame</a>
+			            </div>
+			    </div>
+			    </div>
+			
+		<div className="fullwidthback recent my-5">
+            <div className="main-content frontline">
+                <div className="leader-brd">
+                    <h3 className="mb-0">Recent Notification</h3>
+                </div>
+            </div>
+    	
+    		            <div className="pagenav">
+                        <div className="alignleft"></div>
+                        <div className="alignright"><a href="page/2/index.html" >See More</a></div>
                         </div>
-                    </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="portlet">
-                                <img src="assets/img/bashboard.png" alt="title" className="img-responsive center-block" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
+    		
+    	</div>
+    	<div className="fullwidthback recent mr-0 my-5">
+            <div className="main-content frontline">
+                <div className="leader-brd">
+                    <h3 className="mb-0">Recent Invites</h3>
+                </div>
+            </div>
+            <table className="table cashflow mt-0">
+                <tbody></tbody>
+            </table>
+    	</div>
+	
+  </div>
+ 
+
+</div>
+</div>
+</div>
             </>
         );
     }
 }
 
-export default dashboard;
+export default connect()(dashboard);

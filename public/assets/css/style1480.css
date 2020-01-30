@@ -1,0 +1,823 @@
+
+
+
+
+@media only screen and (max-width: 1480px) {
+    .forty.one.two {
+        padding: 20px 0px 20px 130px;
+    }
+    .sixty.one.two {
+        padding: 20px;
+    }
+    img.lin1 {
+        float: left;
+        width: 100%;
+        margin-top: -28.5%;
+    }
+    .home_banner h2 {
+        font-size: 60px;
+    }    
+    .forty.one p {
+        font-size: 16px;
+        line-height: 21px;
+        margin: 4px 0px 1px 0px;
+        border-bottom: 1px solid #ffffff38;
+        float: left;
+        padding: 3px 0px;
+        color: #ffffffd6;
+    }
+    .forty.one {
+        padding: 25px;
+    }
+    .sixty.one p {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0px 0px 2px 0px;
+        border-bottom: 1px solid #00000042;
+        padding: 3px 0px;
+        color: #000000d6;
+        float: left;
+        width: 50.01%;
+    }
+    .sixty.one {
+        padding: 25px 0px 3% 11%;
+        float: left;
+        margin: 4% 0% 0% 0%;
+        background-repeat: no-repeat;
+    }
+    
+    .fifty img {
+        width: 92%;
+    }
+    
+    .flip-card-back ul li {
+        padding: 8px 0;
+        font-size: 9px;
+    }
+    li.text-center.enabled {
+        padding: 4px 0px;
+    }
+    .flip-card-back p {
+        margin: 2px 0;
+        font-size: 9px;
+    }
+    p.gn {
+        font-size: 11px;
+        padding: 0px 2PX;
+        line-height: 11px;
+    }
+    .fifty h2 {
+        font-size: 34px;
+    }    
+    .fifty ul li {
+        font-size: 15px;
+        margin: 6px 0px;
+        padding: 3px;
+    }   
+    .fifty p {
+        font-size: 20px;
+        padding: 5% 1% 2% 1%;
+    }    
+    .double {
+        margin: 35px 0px;
+    }
+    
+    .forty.one p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .sixty.one p {
+        font-size: 12px;
+        line-height: 18px; 
+    }
+    .sixty.one h3, .forty.one h3 {
+        font-size: 20px;
+        margin: 0px 0px 1px 0px;
+    }
+    .sixty.one {
+        padding: 18px 0px 3% 11%;
+    }
+    .lin1 {
+        float: left;
+        width: 100%;
+        margin-top: -24%!important;
+    }
+    .lin4 {
+        margin-top: -24%!important;
+    }
+    }
+    
+    
+    @media only screen and (max-width: 991px) {
+
+        .col-md-merch {
+            float: left;
+            width: 50%;
+        }
+
+        .full.userpro.update-profile .ibox-content.d-flex {
+            display: initial!important;
+        }
+        .ibox-content.d-flex .col-lg-6.col-md-12.pl-0.text-center {
+            text-align: left!important;
+            margin-bottom: 16px;
+        }
+
+        .custom_foot {
+            margin-top: 0px;
+        }
+
+        .reward-prizes .col-lg-4 {
+
+            max-width: 48%;
+        }
+
+        .empire-leaderboard {
+            height: auto;
+        }
+        .fullwidth .col-lg-4.search {
+            margin-top: 44px;
+          }
+
+          a#logoutlink {
+            padding: 5px 12px;
+            font-size: 12px;
+         
+        }
+        a.taketour {
+            padding: 5px 12px;
+            font-size: 12px;
+
+        }
+        ul.new_home_menu {
+            width: auto;
+            
+        }
+        .homelogo img {
+            max-width: 110px;
+            
+        }
+
+
+    .dallas-empire {
+        margin-top: 20%;
+    }
+
+    .dallas-empire h3 {
+        font-size: 14px!important;
+        line-height: 20px;
+    }
+
+    .dallas-empire h1 {
+        font-size: 26px!important;
+    }
+    
+    .row.tour-prizes {
+        height: auto;
+        margin: 0 16px;
+    }
+    .enter-btn.float-left.w-100 img {
+     
+        width: 268px;
+    }
+
+
+
+
+
+    }
+
+
+
+
+    
+    @media only screen and (max-width: 480px) {
+    img.homegamesbanner {
+        width: 128%;
+        max-width: 128%;
+        margin-left: -14%;
+    }
+    .fullwidth {
+        overflow: hidden;
+    }
+    .onethird {
+        display: none;
+    }
+    .halfway {
+        width: 100%;
+    }
+    .enterbutton img {
+        max-width: 160px;
+    }
+    a.taketour {
+        background: white;
+        color: #0d245a;
+        padding: 5px 8px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 1000;
+    }
+    .half p {
+        color: black;
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+        font-size: 12px;
+        text-align: justify;
+        line-height: 12px;
+    }
+    .fullwidth.homebanner>img {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+     h2#homemainh {
+        width: 90%;
+        margin: 2% 5%;
+        padding: 30px 0px 13px 0px;
+        font-size: 13px;
+    }   
+    
+    nav.navbar.navbar-toggleable.p-0.rob a.navbar-brand {
+        right: 0;
+        padding: 5px 0px;
+    }
+    #modal-container-509828 .modal-dialog {
+        max-width: 700px;
+        margin: 5px auto;
+    }    
+    div#modal-container-509828 img {
+        display: none;
+    }
+    div#modal-container-509828 {
+        padding: 0px;
+    }
+    div#modal-container-509828 .modal-content {
+        padding: 10px;
+        width: 97%;
+        margin: 0% 1.5%;
+    }
+    .signup  .modal-header.text-center {
+        padding: 0;
+    }
+    .notgroup.full.text-left p {
+        float: left;
+        width: 100%;
+        text-align: center;
+        line-height: 15px;
+        padding: 6px 0px;
+        font-size: 10px;
+    }
+    .notgroup input.form-check-input {
+        float: left;
+        margin: 0px -20px;
+    }
+    .notgroup.full.text-left a {
+        font-size: 10px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    
+    form#adduser button.btn.btn-primary.newsubmit {
+        width: 130%;
+        padding: 10px;
+        margin-bottom: -10px;
+        margin-top: 4px;
+        margin-left: -15%;
+    }
+    form#adduser input {
+        max-height: 36px;
+    }
+    .notgroup input.form-check-input {
+        float: left;
+        margin: 2px 0px;
+        left: 0;
+        text-align: left!important;
+        width: 60%!important;
+    }
+    .signup a {
+        width: 100%;
+        color: #57a1ff!important;
+    }
+    .notgroup.form-group.full.text-left label {
+        text-align: center!important;
+    }
+    .neupp .form-group {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .modal-body {
+        padding: 5px 0px;
+    }
+    form#adduser label {
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding: 3px 10px 0px;
+    }
+    form#adduser a {
+        background: none;
+    }
+    li.d-flex.lsbuttons a {
+        background: linear-gradient(to right,#0066c4 ,#00d7af );
+        width: 100%;
+        float: left;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding: 6px 6px;
+        border-radius: 74px;
+        margin: 6px;
+    }    
+    li.d-flex.lsbuttons {
+        border: 0;
+        background: none;
+    }    
+        
+    .col-md-merch {
+        float: left;
+        width: 50%;
+    }    
+        
+    a.navbar-brand {
+        position: absolute;
+        padding: 10px 0px;
+    }  
+    span.sidetogglenav , .onlyphone{
+        display: block;
+    }
+    span.pull-right {
+        display: none;
+    }
+    .onlydesk{
+        display:none;
+    }
+    .sponsor>img {
+        padding: 2px;
+    } 
+    .left-sec.rob.mt-2 span.pull-left.pr-4 {
+        width: 100%;
+    }
+    p#dass, p#das{
+        display: block!important;    
+    }
+    .creditsonphone span.pull-right {
+        text-align: center;
+        padding: 10px 10px 0px 0px;
+        font-weight: 600;
+        color: #24ddb2;
+        font-size:18px;
+    }
+    
+    .main-content.support.frontline h4 {
+        text-align: left;
+        font-size: 18px;
+        color: #565656;
+    } 
+    .nav-item {
+        float: right;
+        text-align: right;
+        width: 100%;
+    }
+    .main-content {
+        padding: 1px 10px;
+        background: #fff;
+    }
+    .main-content.support.frontline {
+        padding: 8px 10px 7px 10px;
+        text-align: left!important;
+    }
+    .sponsor {
+        background-image: none;
+        background-color: #686868;
+    }
+    .spon {
+        padding: 4px;
+    }
+    .col-md-6.col-sm-6.col-12.p-0.text-center {
+        margin-top: 0px;
+    }
+    .right-se.mt-2 {
+        display: none;
+    }
+    
+    
+    .credits {
+        display: none;
+    }
+    .gamecardmain {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+    }  
+    .main-content .col-md-2 {
+        flex: 0 0 17.667%;
+        max-width: 50%;
+    }
+    .das , .dass {
+        display:block;
+    } 
+    .dash , .dashh{
+        display:none;
+    }
+    
+    .custom_foot_image.text-center, .custom_foot {
+        width: 100%;
+        padding: 20px;
+    }
+    .home_banner h2 {
+        font-size: 22px;
+    }
+    .home_banner p {
+        font-size: 16px;
+    }
+    .home_banner a {
+        width: 60%;
+        margin: 6% 20%;
+    }
+    .home_banner {
+        background-size: cover;
+    }
+    .forty {
+        width: 100%;
+        margin: 0!important;
+        padding: 18px 5%!important;
+        background: url('https://res.cloudinary.com/dg3sjwu2p/image/upload/v1580109442/envy/assets/footr-bg_vmyl5n.png')!important;
+        background-size: 155% 100%!important;
+    }
+    
+    .sixty {
+        width: 100%;
+    }
+    .fifty {
+        float: left;
+        width: 100%;
+        padding: 10px 5%!important;
+    }
+    img.lin1, img.lin4 {
+        display: none;
+    }
+    img.mid {
+        display: none;
+    }
+    .double {
+        margin: 0px 0px!important;
+        background-size: cover!important;
+        background: #d2d2d2!important;
+        background-image: none!important;
+    }
+    .sixty {
+        background-image: none!important;
+        background: #d2d2d2!important;
+    }
+    .homeheader ul.navbar-nav.ml-md-auto {
+        padding: 15px 0px;
+        float: right;
+    }
+    .banner_tour img {
+        width: 100%;
+    }
+    header.homeheader {
+        padding: 5px 10px;
+    }
+    
+    
+    a.navbar-brand img {
+        width: 60px;
+    }
+    .tournament_image, .main {
+        float: left;
+        width: 50%;
+        margin: 0!important;
+        padding: 0!important;
+        height: 65px;
+        overflow: hidden;
+    }
+    .tournamentfee, .tournament_platform, .tournament_reg {
+        width: 33%;
+        float: left;
+        text-align: center;
+        background: #fefefe;
+        margin: 0!important;
+        padding: 0!important;
+        
+    }
+    .main .title {
+        padding: 3px 0 0 0px;
+    }
+    .main span {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .tournamentfee span {
+        font-size: 8px;
+        line-height: 10px;
+        height: 20px;
+    }
+    .tournamentfee {
+        padding: 5px!important;
+    }
+    .main-content.frontline .tabbable .nav-tabs .nav-item .nav-link {
+        font-size: 8px!important;
+        padding: 7px!important;
+    }
+    .div2 {
+        position: absolute;
+        height: 150px;
+        width: 93%;
+        z-index: 2;
+        overflow: hidden;
+        display: block;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    p.notification {
+        color: #414141;
+        width: 100%;
+        padding: 10px;
+        background: #f2f2f2;
+        margin: 5px 0px;
+        float: left;
+        text-align: left;
+        font-size: 14px;
+        border-left: 4px solid #01d2ca;
+    }
+    
+    .singletournamentsbrackets {
+        height: 400px;
+        overflow: scroll;
+        float: left;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /**---------------------------------------------------------------**/
+    /** 8 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket8 {
+        width: 24px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket8 img.bracketimage2 {
+        margin-top: 19px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket8 img {
+        margin-top: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket8 {
+        width: 24px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket8 img.bracketimage2 {
+        margin-top: 28px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket8 img {
+        margin-top: 27px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket8 {
+        width: 25px;
+    }
+    /** 4 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket4 {
+        width: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket4 img.bracketimage2 {
+        margin-top: 18px;
+    }
+    /** 16 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket16 {
+        width: 25.6px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket16 img.bracketimage2 {
+        margin-top: 16px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket16 img {
+        margin-top: 21.4px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket16 {
+        width: 25.55px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket16 img.bracketimage2 {
+        margin-top: 27px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket16 img {
+        margin-top: 21.5px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket16 {
+        width: 27.3px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket16 img.bracketimage2 {
+        margin-top: 18px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket16 img {
+        margin-top: 71px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket16 {
+        width: 23.3px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket16 {
+        width: 24px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket16 img.bracketimage2 {
+        margin-top: 159px;
+    }
+    /** 32 **/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket32 {
+        width: 33.7px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket32 img.bracketimage2 {
+        margin-top: 17px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket32 img {
+        margin-top: 22.2px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket32 {
+        width: 33.7px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket32 img.bracketimage2 {
+        margin-top: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket32 img {
+        margin-top: 22.8px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket32 {
+        width: 34.8px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket32 img {
+        margin-top: 69.5px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket32 img.bracketimage2 { 
+        margin-top: 22px;
+    }
+    
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket32 {
+        width: 30.5px;
+    }.publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 {
+        width: 35px;
+    }
+    
+    
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 {
+        width: 33px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 img.bracketimage2 {
+        margin-top: 159px;
+    }
+    
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket32 img {
+        margin-top: 300px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket32 {
+        width: 59px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket32 img.bracketimage4 {
+        margin-top: 191px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster7.newstyle7doublebracket32 {
+        width: 33px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster7.newstyle7doublebracket32 img.bracketimage4 {
+        margin-top: 342px;
+    }
+    /**---------------------------------------------------------------**/
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket64 {
+        width: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket64 img {
+        margin-top: 23px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster1.newstyle1doublebracket64 img.bracketimage2 {
+        margin-top: 17px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket64 {
+        width: 23px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket64 img {
+        margin-top: 28.7px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster2.newstyle2doublebracket64 img.bracketimage2 {
+        margin-top: 28px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket64 {
+        width: 22px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket64 img {
+        margin-top: 88px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster3.newstyle3doublebracket64 img.bracketimage2 {
+        margin-top: 29px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket64 {
+        width: 22.3px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket64 img.bracketimage4 {
+        margin-top: 76px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket64 {
+        width: 25px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster4.newstyle4doublebracket64 img {
+        margin-top: 182.1px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket64 img.bracketimage2 {
+        margin-top: 156px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster5.newstyle5doublebracket64 img {
+        margin-top: 301px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket64 {
+        width: 44.4px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket64 img {
+        margin-top: 364px;
+    }
+    .publickbrackkets.byebracket.spaceadjuster6.newstyle6doublebracket64 img.bracketimage4 {
+        margin-top: 190px;
+    }
+    .leftchat p {
+        float: left!important;
+        padding: 7px;
+    }
+    .rightchat p {
+        float: right!important;
+        padding: 7px;
+        color: #dedede;
+        background: #212121;
+    }
+    
+    .blocks {
+        float: left;
+        width: 28%;
+        text-align: center;
+        margin: 0% 2.66%;
+        background: url(https://fcdgaming.gg/wp-content/uploads/2019/10/FCD-Match-Ladder-Chat-OFF-1.jpg);
+        background-size: 100% 100%;
+        height: 238px;
+    }
+    
+    .blocks h2 {
+        text-align: left;
+        font-weight: 1000;
+        padding: 8px 10px;
+        font-size: 17px;
+        color: #910000;
+    }
+    .blocks h3 {
+        font-size: 30px;
+        margin: 40px 0px;
+        font-weight: 1000;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .blocks {
+        float: left;
+        width: 28%;
+        text-align: center;
+        margin: 0% 2.66%;
+        background: url(https://fcdgaming.gg/wp-content/uploads/2019/10/FCD-Match-Ladder-Chat-OFF-1.jpg);
+        background-size: 100% 100%;
+        height: 238px;
+    }
+    
+    .lowertournaments {
+        float: left;
+        width: 100%;
+        border: 1px solid #910000;
+        padding: 75px 30px 75px;
+        margin: 30px 0px;
+    }
