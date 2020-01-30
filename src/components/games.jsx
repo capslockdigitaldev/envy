@@ -65,15 +65,15 @@ class games extends Component {
                 // })
                 if(res.data.access_token){
                     const postData = {
-                        // region:"us",
-                        token: res.data.access_token,
+                        region:"us",
+                        access_token: res.data.access_token,
                       };
                       const axiosConfig = {
                         headers: {
                           "Content-Type": "application/x-www-form-urlencoded"
                         }
                       };
-                      const url =
+                      const url = 
                 "https://us.battle.net/oauth/userinfo";
               axios.get(url, qs.stringify(postData), axiosConfig).then(res => {
             console.log(res)
