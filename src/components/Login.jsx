@@ -95,7 +95,6 @@ class Login extends Component {
             request = {
                 method: 'GET',
                 url: `https://us.battle.net/oauth/authorize`,
-                headers: { 'Content-Type': 'application/json'},
                 params: params
               };
             axios(request).then( (response) => {
