@@ -75,7 +75,7 @@ class games extends Component {
                                 const nickname = 'user'+rand;
                                 const firstname = 'user'+rand;
                             // }
-                            const blizzid = res.data.id;
+                            const bliz_id = res.data.id;
                             const phone = '0';
                             const email = 'test';
                             const password = '123456';
@@ -84,7 +84,7 @@ class games extends Component {
                             
                             const request = new Request('https://xrsports.gg/team/public/login/blizzard', {
                                 method: 'POST',
-                                body: JSON.stringify({ firstname, nickname, phone, email, password, message , blizzid}),
+                                body: JSON.stringify({ firstname, nickname, phone, email, password, message , bliz_id}),
                                 headers: new Headers({ 'Content-Type': 'application/json' }),
                             })
                             if (password !== cpassword) {
